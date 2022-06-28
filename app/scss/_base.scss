@@ -29,11 +29,11 @@ a:hover, a:focus {
 }
 
 .icon {
-  display: inline-block;
-  flex-shrink: 0;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  display: inline-block!important;
+  flex-shrink: 0!important;
+  background-repeat: no-repeat!important;
+  background-size: contain!important;
+  background-position: center!important;
 }
 
 ul {
@@ -80,6 +80,12 @@ ul {
   background: url("../img/icon/reload.svg");
   width: 24px;
   height: 24px;
+}
+
+.icon-search {
+  background: url("../img/icon/search-normal.svg");
+  width: 46px;
+  height: 46px;
 }
 
 //*********************icons************************
@@ -171,16 +177,38 @@ ul {
   }
 }
 
+.btn-warning {
+  background: #FFC600;
+  border-color: #FFC600;
+  color: #404040;
+
+  &:hover, &:focus {
+    background: #FFC600;
+    border-color: #FFC600;
+  }
+
+  &:active {
+    background: #FFC600!important;
+    border-color: #FFC600!important;
+  }
+}
+
 .btn-text {
   font-weight: 500;
   font-size: 24px;
   line-height: 24px;
   color: #62029E;
   white-space: nowrap;
-  display: block;
   width: fit-content;
   background: transparent;
   border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+
+  span + i {
+    margin-left: 8px;
+  }
 
   &:hover {
     color: #4F0280;
@@ -262,6 +290,10 @@ ul {
   margin: -12px;
 }
 
+.nav-item {
+  width: fit-content;
+}
+
 .nav-tabs .nav-link {
   border: 2px solid #E9EEF4;
   border-radius: 1000px;
@@ -299,10 +331,11 @@ ul {
   align-items: center;
   margin-left: -8px;
   margin-right: -8px;
+  flex-wrap: wrap;
 }
 
 .pagination-item {
-  margin: 0 8px;
+  margin: 4px 8px;
 }
 
 .pagination-link {
@@ -398,6 +431,11 @@ ul {
   border: 2px solid #E9EEF4;
 }
 
+.form-group.light {
+  background: #fff;
+  border-color: #fff;
+}
+
 .form-group input {
   background: transparent;
   flex: 1;
@@ -469,3 +507,49 @@ ul {
 }
 
 //*********************input-forms************************
+
+
+
+//*********************breadcrumb************************
+.breadcrumb {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 24px;
+  background: transparent;
+  width: fit-content;
+}
+
+.breadcrumb li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #404040;
+  position: relative;
+}
+
+.breadcrumb li + li:before {
+  content: '/';
+  margin: 0 3px;
+}
+
+.breadcrumb a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #404040;
+}
+
+.breadcrumb.light {
+  li {
+    color: #FFFFFF;
+    opacity: 0.5;
+  }
+ a {
+   color: #FFFFFF;
+   opacity: 0.5;
+  }
+}
+
+
+//*********************breadcrumb************************

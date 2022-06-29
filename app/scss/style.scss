@@ -2525,5 +2525,393 @@ blockquote:before {
   color: #404040;
 }
 
+.about-page {
+  padding-top: 64px;
+}
+
+.about-tabs .nav-link {
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.about-tabs {
+  margin: 0;
+  display: block;
+}
+
+.about-tabs .nav-item + .nav-item {
+  margin-top: 24px;
+}
+
+.about-tabs .nav-link svg + span {
+  margin-left: 16px;
+}
+
+.about-tabs .nav-link.active {
+  border: none;
+}
+
+.about-tabs .nav-link.active svg path {
+  stroke: #62029E;
+}
+
+.about-page .first-section {
+  margin-top: 0;
+}
+
+.about-page .section-title {
+  margin-bottom: 32px;
+}
+
+.knowing-content p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #404040;
+  margin-bottom: 24px;
+}
+
+.knowing-content p span {
+  color: #62029E;
+}
+
+.ceo {
+  display: flex;
+}
+
+.ceo-img {
+  width: 30%;
+  height: auto;
+  max-height: 320px;
+  background: #FFC600;
+  border-radius: 32px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.ceo-img img {
+  width: 100%;
+  height: auto;
+}
+
+.ceo-caption {
+  width: 70%;
+  padding-left: 24px;
+}
+
+.ceo-caption p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #404040;
+  margin-bottom: 24px;
+}
+
+.about-product-desc p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #404040;
+}
+
+.about-product-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px -10px -25px -10px;
+}
+
+.about-product-item {
+  width: calc(33.3% - 20px);
+  margin: 25px 10px;
+}
+
+.about-product-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  box-shadow: 0 8px 24px #F9F0FF;
+}
+
+.about-product-caption {
+  margin-top: 24px;
+}
+
+.about-product-caption p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #404040;
+}
+
+.worth-list {
+  margin: 40px -65px -25px -65px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+}
+
+.worth-item {
+  width: calc(50% - 130px);
+  margin: 25px 65px;
+  display: flex;
+  padding-bottom: 45px;
+}
+
+.worth-item-img {
+  background: #FFFFFF;
+  box-shadow: 0 8px 24px #F9F0FF;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.worth-item-caption {
+  margin-left: 24px;
+}
+
+.worth-item-caption h6 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #0C0C0C;
+}
+
+.worth-item-caption p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #404040;
+  margin-top: 16px;
+}
+
+.worth-additional-text {
+  padding-top: 60px;
+  border-top: 1px solid #EFEFEF;
+}
+
+.worth-additional-text p {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  color: #62029E;
+}
+
+.team-main {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #404040;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+.team-main-img {
+  margin-top: 32px;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.team-main-img img {
+  max-height: 620px;
+}
+
+.team-members {
+  padding-top: 60px;
+}
+
+.team-member-item {
+  display: flex;
+}
+
+.team-member-img {
+  width: 294px;
+  height: 294px;
+  flex-shrink: 0;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.team-member-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team-member-item + .team-member-item {
+  margin-top: 120px;
+}
+
+.team-member-caption {
+  margin-left: 24px;
+}
+
+.team-member-caption h6 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #0C0C0C;
+}
+
+.team-member-caption p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #404040;
+  margin-top: 16px;
+}
+
+.hr-contacts .section-title {
+  margin-bottom: 64px;
+}
+
+.hr-contact-list {
+  display: flex;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+.hr-contact-item {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.hr-contact-item + .hr-contact-item {
+  margin-left: 200px;
+}
+
+.hr-contact-icon {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #FFFFFF;
+  box-shadow: 0 8px 24px #F9F0FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hr-contact-caption {
+  margin-left: 24px;
+}
+
+.hr-contact-caption h6 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #8F95A7;
+}
+
+.hr-contact-caption p {
+  margin-top: 12px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #0C0C0C;
+  transition: 0.2s ease;
+}
+
+.hr-contact-item:hover .hr-contact-caption p {
+  text-decoration: underline;
+  text-decoration-color: #62029E;
+}
+
+.vacancy {
+  margin: 0;
+  padding: 60px 0;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+.vacancy-list {
+  margin: -12px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vacancy-item {
+  background: #FAFAFA;
+  border-radius: 32px;
+  padding: 32px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: calc(33.3% - 24px);
+  margin: 12px;
+  min-height: 280px;
+}
+
+.vacancy-item h6 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #0C0C0C;
+  margin-bottom: 15px;
+}
+
+.vacancy-item p {
+  margin-top: auto;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #62029E;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.vacancy-item p:after {
+  content: url("../img/icon/chevron-right-violet.svg");
+  width: 24px;
+  height: 24px;
+  margin-left: 4px;
+  transition: 0.4s ease;
+}
+
+.vacancy-item:hover p:after {
+  transform: translateX(15px);
+}
+
+.vacancy-subscribe {
+  margin-top: 60px;
+}
+
+.vacancy-subscribe .section-title {
+  display: block;
+}
+
+.vacancy-subscribe .section-title p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #404040;
+  margin-top: 32px;
+}
+
+.vacancy-subscribe-form {
+  margin-top: 64px;
+}
+
+.vacancy-subscribe-form .accept-form {
+  margin-top: 32px;
+}
+
+.vacancy-subscribe-form .btn-primary {
+  margin-top: 32px;
+}
+
+
+
 
 @import "media";

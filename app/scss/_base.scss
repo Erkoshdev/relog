@@ -506,6 +506,123 @@ ul {
   width: calc(50% - 24px);
 }
 
+.form-group-wrapper {
+  margin-bottom: 24px;
+}
+
+.form-group-wrapper .form-group {
+  margin-bottom: 0;
+}
+
+.form-group-notice {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #8F95A7;
+  display: block;
+  margin-top: 16px;
+}
+
+.upload-file {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 20px 24px;
+  min-height: 64px;
+  border: 2px dashed #62029E;
+  width: 100%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #62029E;
+  opacity: 0.9;
+  overflow: hidden;
+}
+
+.upload-file input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.upload-file-form span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #8F95A7;
+  display: block;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.accept-form {
+  display: flex;
+}
+
+.accept-form .checkbox {
+  position: relative;
+}
+
+.accept-form input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.accept-form .checkmark {
+  border: 2px solid #E9EEF4;
+  border-radius: 8px;
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+  display: block;
+  position: relative;
+}
+
+.accept-form .checkmark:after {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 3.5px;
+  width: 7px;
+  height: 12px;
+  border: solid #333333;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+  display: none;
+}
+
+.accept-form input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.accept-form p {
+  margin-left: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #404040;
+}
+
+.accept-form p a {
+  color: #404040;
+  text-decoration: underline;
+  text-decoration-color: #62029E;
+}
+
 //*********************input-forms************************
 
 

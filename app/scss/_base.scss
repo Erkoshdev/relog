@@ -102,8 +102,15 @@ ul {
 
 .title-lg {
   font-weight: 500;
-  font-size: 48px;
-  line-height: 48px;
+  font-size: 40px;
+  line-height: 44px;
+  color: #0C0C0C;
+}
+
+.title-sm {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
   color: #0C0C0C;
 }
 //*********************texts************************
@@ -181,6 +188,7 @@ ul {
   background: #FFC600;
   border-color: #FFC600;
   color: #404040;
+  font-weight: 500;
 
   &:hover, &:focus {
     background: #FFC600;
@@ -195,8 +203,8 @@ ul {
 
 .btn-text {
   font-weight: 500;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 20px;
   color: #62029E;
   white-space: nowrap;
   width: fit-content;
@@ -207,6 +215,10 @@ ul {
   align-items: center;
 
   span + i {
+    margin-left: 8px;
+  }
+
+  span + svg {
     margin-left: 8px;
   }
 
@@ -569,6 +581,7 @@ ul {
 
 .accept-form .checkbox {
   position: relative;
+  height: fit-content;
 }
 
 .accept-form input {
@@ -638,10 +651,10 @@ ul {
 }
 
 .breadcrumb li {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   line-height: 14px;
-  color: #404040;
+  color: #8F95A7;
   position: relative;
 }
 
@@ -651,10 +664,10 @@ ul {
 }
 
 .breadcrumb a {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   line-height: 14px;
-  color: #404040;
+  color: #8F95A7;
 }
 
 .breadcrumb.light {

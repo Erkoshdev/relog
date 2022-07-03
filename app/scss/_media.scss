@@ -52,6 +52,69 @@
   .blog-share-link span {
     font-size: 20px;
   }
+  .vacancy-primary-caption p {
+    font-size: 22px;
+    line-height: 120%;
+    margin-bottom: 20px;
+  }
+  .vacancy-primary-caption p+.btn-primary {
+    margin-top: 40px;
+  }
+  .vacancy-secondary-info ul li+li {
+    margin-top: 20px;
+  }
+  .vacancy-secondary-info ul li {
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .vacancy-secondary-info {
+    margin-bottom: 45px;
+  }
+
+  .hr-contact-icon {
+    width: 70px;
+    height: 70px;
+  }
+  .hr-contact-caption {
+    margin-left: 20px;
+  }
+  .hr-contact-caption p {
+    font-size: 22px;
+    line-height: 120%;
+    margin-top: 10px;
+  }
+  .vacancy-item {
+    min-height: 200px;
+  }
+  .vacancy-item h6 {
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .vacancy-item p {
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .about-company-left {
+    padding-right: 60px;
+  }
+  .about-company-client p {
+    font-size: 28px;
+    line-height: 120%;
+  }
+  .about-company-client p a {
+    padding-right: 40px;
+  }
+  .about-company-client p a:after {
+    width: 48px;
+    height: 48px;
+  }
+  .subscribe-demo {
+    padding: 40px;
+  }
+  .subscribe-demo-caption h3 {
+    font-size: 40px;
+    line-height: 120%;
+  }
 }
 
 //desktops
@@ -150,10 +213,10 @@
     line-height: 120%;
   }
   .case-md {
-    height: 270px;
+    min-height: 270px;
   }
   .case-lg {
-    height: 564px;
+    min-height: 564px;
   }
   .case-optimization:before {
     opacity: 1;
@@ -383,6 +446,218 @@
   .blog-detail-page {
     padding-bottom: 0;
   }
+  .vacancy-primary-caption p {
+    font-size: 22px;
+    line-height: 120%;
+    margin-bottom: 20px;
+  }
+  .vacancy-primary-caption p+.btn-primary {
+    margin-top: 40px;
+  }
+  .vacancy-secondary-info ul li+li {
+    margin-top: 20px;
+  }
+  .vacancy-secondary-info ul li {
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .vacancy-secondary {
+    padding-top: 45px;
+  }
+  .vacancy-secondary-info {
+    margin-bottom: 45px;
+  }
+  .vacancy-detail-page {
+    padding-bottom: 0;
+  }
+  .first-section {
+    margin-top: 60px;
+  }
+  .vacancy-contact {
+    padding: 50px 0 90px 0;
+  }
+  .vacancy-contact-right p {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 120%;
+    padding-left: 45px;
+  }
+  .vacancy-contact-right p:before {
+    width: 30px;
+    height: 29px;
+  }
+  .knowing-content p {
+    font-size: 22px;
+    line-height: 120%;
+    margin-bottom: 22px;
+  }
+  .ceo-img {
+    height: 240px;
+  }
+  .ceo-caption p {
+    font-size: 22px;
+    line-height: 120%;
+    margin-bottom: 22px;
+  }
+  .about-product-desc p {
+    font-size: 22px;
+    line-height: 120%;
+  }
+  .about-product-item {
+    width: calc(50% - 20px);
+  }
+  .about-product-img {
+    width: 70px;
+    height: 70px;
+  }
+  .about-product-img img {
+    width: 38px;
+    height: 38px;
+  }
+  .about-page .title-lg {
+    font-size: 40px;
+    line-height: 120%;
+  }
+  .worth-list {
+    margin: 40px 0 0 0;
+  }
+  .worth-item {
+    width: 100%;
+    margin: 0;
+  }
+  .worth-additional-text {
+    padding-top: 40px;
+  }
+  .worth-additional-text p {
+    font-size: 28px;
+    line-height: 120%;
+  }
+  .team-members {
+    padding-top: 40px;
+  }
+  .team-member-img {
+    width: 220px;
+    height: 220px;
+  }
+  .team-member-item+.team-member-item {
+    margin-top: 60px;
+  }
+  .hr-contact-item+.hr-contact-item {
+    margin-left: 60px;
+  }
+  .hr-contact-icon {
+    width: 60px;
+    height: 60px;
+  }
+  .hr-contact-icon img {
+    width: 30px;
+    height: 30px;
+  }
+  .hr-contact-caption {
+    margin-left: 15px;
+  }
+  .hr-contact-caption p {
+    margin-top: 7px;
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .hr-contact-list {
+    padding-bottom: 40px;
+  }
+  .vacancy {
+    margin-top: 0;
+  }
+  .vacancy-item {
+    width: calc(50% - 24px);
+    padding: 24px;
+    min-height: 200px;
+  }
+  .vacancy-item h6 {
+    font-size: 22px;
+    line-height: 120%;
+  }
+  .vacancy-item p {
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .vacancy-subscribe {
+    margin-top: 40px;
+  }
+  .vacancy-subscribe .section-title p {
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .vacancy-subscribe-form {
+    margin-top: 30px;
+  }
+
+  .about-company-left {
+    padding-right: 40px;
+  }
+  .about-company-client p {
+    font-size: 28px;
+    line-height: 120%;
+  }
+  .about-company-client p a {
+    padding-right: 40px;
+  }
+  .about-company-client p a:after {
+    width: 48px;
+    height: 48px;
+  }
+  .partner-item {
+    padding: 24px;
+  }
+  .partner-item-logo img {
+    max-width: 210px;
+  }
+  .partner-item-desc {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .contact-box {
+    padding: 24px;
+    width: 450px;
+  }
+  .contact-item a {
+    font-size: 17px;
+    line-height: 120%;
+  }
+  .contact-item a + a {
+    margin-top: 7px;
+  }
+  .contact-item p {
+    font-size: 17px;
+    line-height: 120%;
+  }
+  .contact-list {
+    margin: -15px -20px;
+  }
+  .contact-item {
+    width: calc(50% - 40px);
+    margin: 15px 20px;
+  }
+  .case-delivery {
+    background-size: auto 300px;
+  }
+  .case-base .case-caption {
+    padding-right: 32px;
+  }
+  .subscribe-demo {
+    padding: 32px;
+  }
+  .subscribe-demo-caption {
+    padding-right: 40px;
+  }
+  .subscribe-demo-caption h3 {
+    font-size: 36px;
+    line-height: 120%;
+  }
+  .subscribe-demo-caption p {
+    font-size: 20px;
+    line-height: 120%;
+  }
 }
 
 //tablets
@@ -506,14 +781,14 @@
     padding: 25px;
   }
   .case-lg {
-    height: 584px;
+    min-height: 584px;
   }
   .case-lg .case-name {
     font-size: 28px;
     line-height: 120%;
   }
   .case-md {
-    height: 280px;
+    min-height: 280px;
   }
   .case-md .case-name {
     font-size: 20px;
@@ -1043,6 +1318,311 @@
   .blog-detail-page {
     padding-bottom: 0;
   }
+  .vacancy-primary-caption .section-title {
+    margin-bottom: 20px;
+  }
+  .vacancy-primary-caption p {
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 18px;
+  }
+  .vacancy-primary-caption p+.btn-primary {
+    margin-top: 30px;
+  }
+  .vacancy-primary {
+    padding-bottom: 30px;
+  }
+  .vacancy-secondary {
+    padding-top: 30px;
+  }
+  .vacancy-secondary-info ul li+li {
+    margin-top: 16px;
+  }
+  .vacancy-secondary-info ul li {
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .vacancy-secondary-info {
+    margin-bottom: 30px;
+  }
+  .vacancy-detail-page {
+    padding-bottom: 0;
+  }
+  .first-section {
+    margin-top: 60px;
+  }
+  .vacancy-contact {
+    padding: 30px 0 50px 0;
+  }
+  .vacancy-contact .title-lg {
+    font-size: 30px;
+    line-height: 120%;
+  }
+  .vacancy-contact-left p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .vacancy-contact-right p {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 120%;
+    padding-left: 45px;
+  }
+  .vacancy-contact-right p:before {
+    width: 30px;
+    height: 29px;
+  }
+  .about-tabs {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    position: static;
+    top: initial;
+  }
+  .about-tabs .nav-item + .nav-item {
+    margin-top: 0;
+    margin-right: 30px;
+    margin-bottom: 15px;
+  }
+  .about-tabs .nav-item:first-child {
+    margin-right: 30px;
+    margin-bottom: 15px;
+  }
+  .knowing-content p {
+    font-size: 22px;
+    line-height: 120%;
+    margin-bottom: 22px;
+  }
+  .ceo-img {
+    height: 240px;
+  }
+  .ceo-caption p {
+    font-size: 22px;
+    line-height: 120%;
+    margin-bottom: 22px;
+  }
+  .about-product-desc p {
+    font-size: 22px;
+    line-height: 120%;
+  }
+  .about-product-item {
+    width: calc(50% - 20px);
+  }
+  .about-product-img {
+    width: 70px;
+    height: 70px;
+  }
+  .about-product-img img {
+    width: 38px;
+    height: 38px;
+  }
+  .about-page .title-lg {
+    font-size: 40px;
+    line-height: 120%;
+  }
+  .worth-list {
+    margin: 40px 0 0 0;
+  }
+  .worth-item {
+    width: 100%;
+    margin: 0;
+  }
+  .worth-additional-text {
+    padding-top: 40px;
+  }
+  .worth-additional-text p {
+    font-size: 28px;
+    line-height: 120%;
+  }
+  .team-members {
+    padding-top: 40px;
+  }
+  .team-member-img {
+    width: 220px;
+    height: 220px;
+  }
+  .team-member-item+.team-member-item {
+    margin-top: 60px;
+  }
+  .hr-contact-item+.hr-contact-item {
+    margin-left: 60px;
+  }
+  .hr-contact-icon {
+    width: 60px;
+    height: 60px;
+  }
+  .hr-contact-icon img {
+    width: 30px;
+    height: 30px;
+  }
+  .hr-contact-caption {
+    margin-left: 15px;
+  }
+  .hr-contact-caption p {
+    margin-top: 7px;
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .hr-contact-list {
+    padding-bottom: 40px;
+  }
+  .vacancy {
+    margin-top: 0;
+  }
+  .vacancy-item {
+    width: calc(50% - 24px);
+    padding: 24px;
+    min-height: 200px;
+  }
+  .vacancy-item h6 {
+    font-size: 22px;
+    line-height: 120%;
+  }
+  .vacancy-item p {
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .vacancy-subscribe {
+    margin-top: 40px;
+  }
+  .vacancy-subscribe .section-title p {
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .vacancy-subscribe-form {
+    margin-top: 30px;
+  }
+
+
+  .about-company-slider {
+    padding: 60px 0 100px 0;
+    height: fit-content;
+    max-height: initial;
+  }
+  .about-company-slider h1 {
+    font-size: 32px;
+    line-height: 120%;
+    max-width: 600px;
+  }
+  .about-company-slider p {
+    max-width: 600px;
+  }
+
+
+  .about-company-left {
+    padding-right: 40px;
+  }
+  .about-company-left .title-lg {
+    font-size: 30px;
+    line-height: 120%;
+  }
+  .about-company-client .btn-text {
+    margin-top: 30px;
+  }
+  .about-company-client p {
+    font-size: 24px;
+    line-height: 120%;
+  }
+  .about-company-client p a {
+    padding-right: 30px;
+  }
+  .about-company-client p a:after {
+    width: 36px;
+    height: 36px;
+  }
+  .about-company-client {
+    padding-bottom: 30px;
+  }
+  .about-company-worth {
+    padding-top: 30px;
+    margin-top: 0;
+  }
+  .about-company-worth .about-company-left p {
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .company-worth-item {
+    padding: 24px;
+  }
+  .company-worth-img {
+    width: 52px;
+    height: 52px;
+  }
+  .company-worth-img img {
+    width: 32px;
+    height: 32px;
+  }
+  .company-worth-caption {
+    margin-left: 16px;
+  }
+  .company-worth-caption p {
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .partner-item {
+    width: calc(50% - 24px);
+  }
+  .partner-item {
+    padding: 24px;
+    min-height: 320px;
+  }
+  .partner-item-logo img {
+    max-width: 210px;
+  }
+  .partner-item-desc {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .contact-map {
+    height: 450px;
+  }
+  .contact-box {
+    display: none;
+  }
+  .contact-list-single {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .case-delivery {
+    background-size: auto 240px;
+  }
+  .case-base .case-caption {
+    padding: 24px;
+  }
+  .subscribe-demo {
+    padding: 24px;
+  }
+  .subscribe-demo-caption {
+    padding-right: 30px;
+  }
+  .subscribe-demo-caption h3 {
+    font-size: 30px;
+    line-height: 120%;
+  }
+  .subscribe-demo-caption p {
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .subscribe-demo .half-form {
+    display: block;
+  }
+  .subscribe-demo .half-form .form-group {
+    width: calc(100% - 24px);
+  }
+  .subscribe-demo-submit {
+    flex-direction: column;
+    .accept-form {
+      order: 1;
+    }
+    .btn-primary {
+      order: 2;
+      margin-top: 15px;
+    }
+  }
+
 }
 
 //landscape phones
@@ -1209,14 +1789,14 @@
     margin-top: 24px;
   }
   .case-lg {
-    height: 450px;
+    min-height: 450px;
   }
   .case-lg .case-name {
     font-size: 28px;
     line-height: 120%;
   }
   .case-md {
-    height: 450px;
+    min-height: 450px;
   }
   .case-md .case-name {
     font-size: 28px;
@@ -1633,7 +2213,6 @@
     font-size: 13px;
     line-height: 120%;
   }
-
   .article-preview {
     margin-bottom: 20px;
     padding-right: 0;
@@ -1689,7 +2268,6 @@
     line-height: 120%;
     margin-top: 15px;
   }
-
   .blog-detail-slider {
     display: block;
     padding: 40px 24px 90px 24px;
@@ -1824,8 +2402,429 @@
       margin-top: 40px;
     }
   }
+  .vacancy-primary {
+    flex-direction: column;
+  }
+  .vacancy-primary-caption .section-title {
+    margin-bottom: 30px;
+  }
+  .vacancy-primary-right {
+    order: 1;
+    margin-bottom: 30px;
+  }
+  .vacancy-primary-left {
+    order: 2;
+  }
+  .vacancy-primary {
+    padding-bottom: 30px;
+  }
+  .vacancy-primary-caption p {
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 18px;
+  }
+  .vacancy-primary-caption p+.btn-primary {
+    margin-top: 25px;
+  }
+  .vacancy-secondary {
+    padding-top: 30px;
+  }
+  .vacancy-secondary-info ul li {
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .vacancy-secondary-info ul li+li {
+    margin-top: 18px;
+  }
+  .vacancy-secondary-info {
+    margin-bottom: 40px;
+  }
+  .vacancy-contact {
+    padding: 30px 0 60px 0;
+  }
+  .vacancy-contact-left p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .vacancy-contact-right p {
+    margin-top: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .vacancy-contact-right p:before {
+    width: 20px;
+    height: 19px;
+  }
+  .vacancy-detail-page {
+    padding-bottom: 0;
+  }
+  .about-tabs {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    position: static;
+    top: initial;
+  }
+  .about-tabs .nav-item + .nav-item {
+    margin-top: 0;
+    margin-right: 16px;
+    margin-bottom: 8px;
+  }
+  .about-tabs .nav-item:first-child {
+    margin-right: 16px;
+    margin-bottom: 8px;
+  }
+  .about-tabs .nav-link svg {
+    width: 20px;
+    height: 20px;
+  }
+  .about-tabs .nav-link svg+span {
+    margin-left: 12px;
+  }
+  .about-tabs .nav-link {
+    font-size: 14px;
+    line-height: 14px;
+    padding: 8px 0;
+    margin: 0;
+  }
+  .about-page .section-title {
+    margin-bottom: 24px;
+  }
+  .about-page .title-lg {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .knowing-content p {
+    font-size: 18px;
+    line-height: 120%;
+    margin-bottom: 18px;
+  }
+  .ceo {
+    display: block;
+  }
+  .ceo-img {
+    width: 240px;
+    height: 240px;
+  }
+  .ceo-caption {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 40px;
+  }
+  .ceo-caption p {
+    font-size: 22px;
+    line-height: 120%;
+    margin-bottom: 22px;
+  }
+  .about-product-desc p {
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .about-product-item {
+    width: calc(100% - 20px);
+    margin: 0;
+    display: flex;
+  }
+  .about-product-item + .about-product-item {
+    margin-top: 20px;
+  }
+  .about-product-caption {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  .about-product-img {
+    width: 70px;
+    height: 70px;
+  }
+  .about-product-img img {
+    width: 38px;
+    height: 38px;
+  }
+  .worth-list {
+    margin: 40px 0 0 0;
+  }
+  .worth-item {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 30px;
+  }
+  .worth-item-img {
+    width: 70px;
+    height: 70px;
+  }
+  .worth-item-caption p {
+    margin-top: 10px;
+  }
+  .worth-additional-text {
+    padding-top: 30px;
+  }
+  .worth-additional-text p {
+    font-size: 24px;
+    line-height: 120%;
+  }
+  .team-main p {
+    font-size: 22px;
+    line-height: 120%;
+  }
+  .team-main {
+    padding-bottom: 30px;
+  }
+  .team-members {
+    padding-top: 30px;
+  }
+  .team-member-img {
+    width: 170px;
+    height: 170px;
+  }
+  .team-member-item+.team-member-item {
+    margin-top: 60px;
+  }
+  .hr-contact-list {
+    padding-bottom: 30px;
+    display: block;
+  }
+  .hr-contact-item + .hr-contact-item {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .hr-contact-icon {
+    width: 60px;
+    height: 60px;
+  }
+  .hr-contact-icon img {
+    width: 30px;
+    height: 30px;
+  }
+  .hr-contact-caption {
+    margin-left: 15px;
+  }
+  .hr-contact-caption p {
+    margin-top: 7px;
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .vacancy {
+    margin-top: 0;
+  }
+  .vacancy-item {
+    width: calc(100% - 24px);
+    padding: 24px;
+    min-height: 120px;
+  }
+  .vacancy-item h6 {
+    font-size: 22px;
+    line-height: 120%;
+  }
+  .vacancy-item p {
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .vacancy-subscribe {
+    margin-top: 40px;
+  }
+  .vacancy-subscribe .section-title p {
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .vacancy-subscribe-form {
+    margin-top: 30px;
+  }
+
+  .about-company-slider {
+    height: fit-content;
+    max-height: initial;
+    padding: 100px 0 220px 0;
+  }
+  .about-company-slider h6 {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .about-company-slider h1 {
+    font-size: 24px;
+    line-height: 31px;
+    margin-top: 12px;
+  }
+  .about-company-slider p {
+    display: none;
+  }
+  .about-company-slider .btn-warning {
+    margin-top: 40px;
+  }
+  .about-company-content {
+    display: block;
+  }
+  .about-company-left {
+    width: 100%;
+    padding: 0;
+  }
+  .about-company-client .btn-text {
+    display: none;
+  }
+  .about-company-right {
+    width: 100%;
+    margin-top: 16px;
+  }
+  .about-company-client p {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .about-company-client p a {
+    padding-right: 30px;
+  }
+  .about-company-client p a:after {
+    width: 32px;
+    height: 32px;
+  }
+  .about-company-client {
+    padding-bottom: 40px;
+  }
+  .about-company-worth {
+    margin-top: 0;
+    padding-top: 40px;
+  }
+  .about-company-worth .about-company-left p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .company-worth-list {
+    margin-top: 40px;
+  }
+  .company-worth-item {
+    padding: 14px;
+    min-height: 100px;
+    border-radius: 24px;
+  }
+  .company-worth-img {
+    width: 52px;
+    height: 52px;
+  }
+  .company-worth-img img {
+    width: 32px;
+    height: 32px;
+  }
+  .company-worth-caption {
+    margin-left: 12px;
+  }
+  .company-worth-caption p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .company-worth-item+.company-worth-item {
+    margin-top: 16px;
+  }
+  .about-company-client .btn-text-xs {
+    display: flex;
+    margin-top: 24px;
+  }
+  .partner-list {
+    margin: -7.5px;
+  }
+  .partner-item {
+    width: calc(50% - 15px);
+    margin: 7.5px;
+  }
+  .partner-item {
+    padding: 24px;
+    min-height: 320px;
+  }
+  .partner-item-logo img {
+    max-width: 160px;
+  }
+  .partner-item-desc {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .partner-item-link {
+    font-size: 17px;
+    line-height: 120%;
+  }
+  .partner-item-link:after {
+    width: 18px;
+    height: 18px;
+  }
+  .contact-map {
+    height: 400px;
+  }
+  .contact-box {
+    display: none;
+  }
+  .contact-list-single {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .case-delivery {
+    background-size: auto 250px;
+  }
 
 
+  .case-base .case-caption {
+    padding: 24px;
+  }
+  .subscribe-demo {
+    padding: 24px;
+    display: block;
+  }
+  .subscribe-demo-caption {
+    width: 100%;
+    padding-right: 0;
+  }
+  .subscribe-demo-caption h3 {
+    font-size: 30px;
+    line-height: 120%;
+  }
+  .subscribe-demo-caption p {
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .subscribe-demo-form {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .subscribe-demo .half-form {
+    display: block;
+  }
+  .subscribe-demo .half-form .form-group {
+    width: calc(100% - 24px);
+  }
+  .subscribe-demo-submit {
+    flex-direction: column;
+    .accept-form {
+      order: 1;
+    }
+    .btn-primary {
+      order: 2;
+      margin-top: 15px;
+    }
+  }
+  .main-partners .btn-text {
+    display: none;
+  }
+  .main-partners .btn-text-border {
+    display: flex;
+    width: 100%;
+    margin-top: 24px;
+  }
+  .main-partners-nav {
+    display: flex;
+    margin-left: auto;
+    width: fit-content;
+  }
+  .main-partners-nav .swiper-button-prev, .main-partners-nav .swiper-button-next {
+    position: static;
+  }
+  .main-partners-nav .swiper-button-next {
+    margin-left: 16px;
+  }
+  .main-partners-item img {
+    display: none;
+  }
+  .main-partners-item img.partners-img-xs {
+    display: block;
+  }
 }
 
 //phones
@@ -2027,7 +3026,7 @@
   }
   .title-lg {
     font-size: 24px;
-    line-height: 24px;
+    line-height: 31px;
   }
   .main-partners .btn-text {
     display: none;
@@ -2098,10 +3097,10 @@
     margin-top: 16px;
   }
   .case-lg {
-    height: 300px;
+    min-height: 300px;
   }
   .case-md {
-    height: 300px;
+    min-height: 300px;
   }
   .case-type {
     font-size: 10px;
@@ -2889,7 +3888,7 @@
     display: block;
   }
   .blog-share {
-    margin-top: 24px;
+    margin: 24px 0 0 0;
     justify-content: center;
   }
   .blog-share-item {
@@ -2935,6 +3934,500 @@
     }
   }
 
+
+  .vacancy-primary {
+    flex-direction: column;
+  }
+  .vacancy-primary-caption .section-title {
+    margin-bottom: 30px;
+  }
+  .vacancy-primary-right {
+    order: 1;
+    margin-bottom: 30px;
+  }
+  .vacancy-primary-left {
+    order: 2;
+  }
+  .vacancy-primary {
+    padding-bottom: 30px;
+  }
+  .vacancy-primary-caption p {
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 18px;
+  }
+  .vacancy-primary-caption p+.btn-primary {
+    margin-top: 25px;
+  }
+  .vacancy-primary-caption .btn-primary {
+    width: 100%;
+  }
+  .vacancy-secondary {
+    padding-top: 30px;
+  }
+  .vacancy-secondary-info ul li {
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .vacancy-secondary-info ul li+li {
+    margin-top: 18px;
+  }
+  .vacancy-secondary-info {
+    margin-bottom: 40px;
+  }
+  .vacancy-contact {
+    padding: 30px 0 60px 0;
+  }
+  .vacancy-contact-left p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .vacancy-contact-right p {
+    margin-top: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .vacancy-contact-right p:before {
+    width: 20px;
+    height: 19px;
+  }
+  .vacancy-detail-page {
+    padding-bottom: 0;
+  }
+
+  .about-page {
+    padding-top: 40px;
+  }
+  .about-tabs {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    position: static;
+    top: initial;
+  }
+  .about-tabs .nav-item + .nav-item {
+    margin-top: 0;
+    margin-right: 16px;
+    margin-bottom: 8px;
+  }
+  .about-tabs .nav-item:first-child {
+    margin-right: 16px;
+    margin-bottom: 8px;
+  }
+  .about-tabs .nav-link svg {
+    width: 20px;
+    height: 20px;
+  }
+  .about-tabs .nav-link svg+span {
+    margin-left: 12px;
+  }
+  .about-tabs .nav-link {
+    font-size: 14px;
+    line-height: 14px;
+    padding: 8px 0;
+    margin: 0;
+  }
+  .about-page .section-title {
+    margin-bottom: 12px;
+  }
+  .about-page .title-lg {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .knowing-content p {
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 12px;
+  }
+  .ceo {
+    display: block;
+  }
+  .ceo-img {
+    width: 100%;
+    height: 300px;
+  }
+  .ceo-caption {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 40px;
+  }
+  .ceo-caption p {
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 12px;
+  }
+  .about-product-desc p {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .about-product-wrapper {
+    margin: 40px 0 0 0;
+  }
+  .about-product-item {
+    width: 100%;
+    margin: 0;
+    display: flex;
+  }
+  .about-product-item + .about-product-item {
+    margin-top: 40px;
+  }
+  .about-product-img {
+    width: 52px;
+    height: 52px;
+  }
+  .about-product-img img {
+    width: 32px;
+    height: 32px;
+  }
+  .about-product-caption {
+    margin-top: 0;
+    margin-left: 12px;
+  }
+  .about-product-caption p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .worth-list {
+    margin: 40px 0 0 0;
+    padding: 0;
+  }
+  .worth-item {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 40px;
+  }
+  .worth-item-img {
+    width: 52px;
+    height: 52px;
+  }
+  .worth-item-img img {
+    width: 32px;
+    height: 32px;
+  }
+  .worth-item-caption {
+    margin-left: 12px;
+  }
+  .worth-item-caption h6 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .worth-item-caption p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 12px;
+  }
+  .worth-additional-text {
+    padding-top: 40px;
+  }
+  .worth-additional-text p {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .team-main p {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .team-main {
+    padding-bottom: 40px;
+  }
+  .team-members {
+    padding-top: 40px;
+  }
+  .team-member-item {
+    display: block;
+  }
+  .team-member-img {
+    width: 100%;
+    height: 320px;
+  }
+  .team-member-caption {
+    margin-top: 24px;
+    margin-left: 0;
+  }
+  .team-member-caption h6 {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .team-member-caption p {
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .team-member-item+.team-member-item {
+    margin-top: 40px;
+  }
+
+  .hr-contact-list {
+    padding-bottom: 40px;
+    display: block;
+    margin-top: 40px;
+  }
+  .hr-contact-item + .hr-contact-item {
+    margin-left: 0;
+    margin-top: 35px;
+  }
+  .hr-contact-icon {
+    width: 52px;
+    height: 52px;
+  }
+  .hr-contact-icon img {
+    width: 32px;
+    height: 32px;
+  }
+  .hr-contact-caption {
+    margin-left: 15px;
+  }
+  .hr-contact-caption p {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .vacancy {
+    margin-top: 0;
+    padding-bottom: 40px;
+  }
+  .vacancy-list {
+    margin: 0;
+  }
+  .vacancy-item {
+    width: 100%;
+    padding: 24px;
+    min-height: 140px;
+    margin: 0;
+  }
+  .vacancy-item + .vacancy-item {
+    margin-top: 16px;
+  }
+  .vacancy-item h6 {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .vacancy-item p {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .vacancy-item p:after {
+    width: 16px;
+    height: 16px;
+  }
+  .vacancy-subscribe {
+    margin-top: 40px;
+  }
+  .vacancy-subscribe .section-title p {
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .vacancy-subscribe-form {
+    margin-top: 30px;
+  }
+  .half-form {
+    display: block;
+  }
+  .half-form .form-group {
+    width: calc(100% - 24px);
+  }
+  .vacancy-subscribe-form .btn-primary {
+    width: 100%;
+  }
+  .next-about-tab {
+    display: flex;
+  }
+
+  .about-company-slider {
+    height: fit-content;
+    max-height: initial;
+    padding: 100px 0 220px 0;
+  }
+  .about-company-slider h6 {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .about-company-slider h1 {
+    font-size: 24px;
+    line-height: 31px;
+    margin-top: 12px;
+  }
+  .about-company-slider p {
+    display: none;
+  }
+  .about-company-slider .btn-warning {
+    margin-top: 40px;
+  }
+  .about-company-content {
+    display: block;
+  }
+  .about-company-left {
+    width: 100%;
+    padding: 0;
+  }
+  .about-company-client .btn-text {
+    display: none;
+  }
+  .about-company-right {
+    width: 100%;
+    margin-top: 16px;
+  }
+  .about-company-client p {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .about-company-client p a {
+    padding-right: 30px;
+  }
+  .about-company-client p a:after {
+    width: 32px;
+    height: 32px;
+  }
+  .about-company-client {
+    padding-bottom: 40px;
+  }
+  .about-company-worth {
+    margin-top: 0;
+    padding-top: 40px;
+  }
+  .about-company-worth .about-company-left p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .company-worth-list {
+    margin-top: 40px;
+  }
+  .company-worth-item {
+    padding: 14px;
+    min-height: 100px;
+    border-radius: 24px;
+  }
+  .company-worth-img {
+    width: 52px;
+    height: 52px;
+  }
+  .company-worth-img img {
+    width: 32px;
+    height: 32px;
+  }
+  .company-worth-caption {
+    margin-left: 12px;
+  }
+  .company-worth-caption p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .company-worth-item+.company-worth-item {
+    margin-top: 16px;
+  }
+  .about-company-client .btn-text-xs {
+    display: flex;
+    margin-top: 24px;
+  }
+
+  .partner-item {
+    width: calc(100% - 15px);
+    margin: 7.5px;
+  }
+  .partner-item {
+    padding: 24px;
+    min-height: 320px;
+  }
+  .partner-item-logo img {
+    max-width: 160px;
+  }
+  .partner-item-desc {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .partner-item-desc p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .partner-item-link {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .partner-item-link:after {
+    width: 16px;
+    height: 16px;
+  }
+  .contact-map {
+    height: 340px;
+  }
+  .contact-box {
+    display: none;
+  }
+  .contact-list-single {
+    display: block;
+    margin: 0 0 80px 0;
+  }
+  .contact-item {
+    width: 100%;
+    margin: 0;
+  }
+  .contact-item a {
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+  }
+  .contact-item p {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .contact-item + .contact-item {
+    margin-top: 40px;
+  }
+  .case-delivery {
+    background-size: auto 200px;
+  }
+
+  .case .case-more-link {
+    display: none;
+  }
+  .case-base .case-caption {
+    padding: 24px;
+  }
+  .subscribe-demo {
+    padding: 24px;
+    display: block;
+  }
+  .subscribe-demo-caption {
+    width: 100%;
+    padding-right: 0;
+  }
+  .subscribe-demo-caption h3 {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .subscribe-demo-caption p {
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 12px;
+  }
+  .subscribe-demo-form {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .subscribe-demo .half-form {
+    display: block;
+  }
+  .subscribe-demo .half-form .form-group {
+    width: calc(100% - 24px);
+  }
+  .subscribe-demo-submit {
+    display: block;
+    margin-top: 16px;
+    .btn-primary {
+      width: 100%;
+    }
+    .accept-form {
+      margin-top: 40px;
+    }
+  }
+  .video-modal .modal-dialog {
+    width: calc(100% - 1em);
+    padding-top: calc((100% - 1em) * 0.5625);
+  }
 }
 
 //additional media

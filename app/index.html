@@ -14,7 +14,7 @@
   <header>
     <div class="container">
       <div class="header-row">
-        <a href="" class="header-logo">
+        <a href="index.html" class="header-logo">
           <img src="img/logo/logo.svg" alt="">
         </a>
         <div class="mobile-menu">
@@ -26,22 +26,22 @@
             </button>
             <ul class="header-nav">
               <li>
-                <a class="header-nav-link" href="">Клиенты</a>
+                <a class="header-nav-link" href="client.html">Клиенты</a>
               </li>
               <li>
-                <a class="header-nav-link" href="">Кейсы</a>
+                <a class="header-nav-link" href="case.html">Кейсы</a>
               </li>
               <li>
-                <a class="header-nav-link" href="">Пресса о нас</a>
+                <a class="header-nav-link" href="about-blog.html">Пресса о нас</a>
               </li>
               <li>
-                <a class="header-nav-link" href="">Блог</a>
+                <a class="header-nav-link" href="blog.html">Блог</a>
               </li>
               <li>
                 <a class="header-nav-link" href="">Обучение</a>
               </li>
               <li>
-                <a class="header-nav-link" href="">Вакансии</a>
+                <a class="header-nav-link" href="about.html">Вакансии</a>
               </li>
             </ul>
           </div>
@@ -152,7 +152,7 @@
         </div>
         <div class="cases-row">
           <div class="case-wrapper">
-            <div class="case case-lg case-delivery">
+            <div class="case case-lg case-dark case-delivery">
               <div class="case-caption">
                 <span class="case-type">Кейс Sulpak</span>
                 <h2 class="case-name">Как предугадать вызовы при доставке товаров клиентам</h2>
@@ -161,14 +161,14 @@
             </div>
           </div>
           <div class="case-wrapper">
-            <div class="case case-md case-optimization">
+            <div class="case case-md case-light case-optimization">
               <div class="case-caption">
                 <span class="case-type">Кейс</span>
                 <h2 class="case-name">Оптимизация логистики с помощью Relog: вместо двенадцати грузовиков — <br>десять</h2>
                 <button class="btn btn-border-white">Подробнее</button>
               </div>
             </div>
-            <div class="case case-md case-online-store">
+            <div class="case case-md case-light case-online-store">
               <div class="case-caption">
                 <span class="case-type">Кейс E2e4</span>
                 <h2 class="case-name">Как Relog помог оптимизировать логистику сети интернет-магазинов</h2>
@@ -1159,7 +1159,7 @@
   <footer>
     <div class="container">
       <div class="footer-top">
-        <a class="footer-logo" href="">
+        <a class="footer-logo" href="index.html">
           <img src="img/logo/logo.svg" alt="">
         </a>
       </div>
@@ -1178,23 +1178,23 @@
         </div>
         <div class="col-sm-12 col-md-7 col-lg-5 col-xl-6 footer-nav">
           <div class="footer-nav-column">
-            <a href="" class="footer-nav-link">О компании</a>
-            <a href="" class="footer-nav-link">Клиенты</a>
-            <a href="" class="footer-nav-link">Пресса о нас</a>
+            <a href="about.html" class="footer-nav-link">О компании</a>
+            <a href="client.html" class="footer-nav-link">Клиенты</a>
+            <a href="about-blog.html" class="footer-nav-link">Пресса о нас</a>
             <a href="" class="footer-nav-link">API–документация</a>
-            <a href="" class="footer-nav-link xs-visible">Наши партнеры</a>
+            <a href="partner.html" class="footer-nav-link xs-visible">Наши партнеры</a>
           </div>
           <div class="footer-nav-column">
-            <a href="" class="footer-nav-link">Блог</a>
+            <a href="blog.html" class="footer-nav-link">Блог</a>
             <a href="" class="footer-nav-link">Challenge</a>
-            <a href="" class="footer-nav-link xs-unvisible">Наши партнеры</a>
-            <a href="" class="footer-nav-link xs-visible">Контакты</a>
-            <a href="" class="footer-nav-link xs-visible">Вакансии</a>
+            <a href="partner.html" class="footer-nav-link xs-unvisible">Наши партнеры</a>
+            <a href="contact.html" class="footer-nav-link xs-visible">Контакты</a>
+            <a href="about.html" class="footer-nav-link xs-visible">Вакансии</a>
             <p class="footer-nav-link xs-visible">Eng — Rus</p>
           </div>
           <div class="footer-nav-column">
-            <a href="" class="footer-nav-link xs-unvisible">Контакты</a>
-            <a href="" class="footer-nav-link xs-unvisible">Вакансии</a>
+            <a href="contact.html" class="footer-nav-link xs-unvisible">Контакты</a>
+            <a href="about.html" class="footer-nav-link xs-unvisible">Вакансии</a>
           </div>
         </div>
         <div class="col-sm-6 col-md-12 col-lg-4 col-xl-3 footer-social">
@@ -1380,10 +1380,9 @@
   });
 
 
-
   //main-partners slider
   $(document).ready(function (){
-    if($(window).width() < 576) {
+    if($(window).width() < 768) {
       let partnersSlider = new Swiper('.main-partners-box', {
         speed: 700,
         spaceBetween: 40,
@@ -1411,11 +1410,6 @@
       });
     }
   });
-
-
-
-
-
 
 </script>
 </body>

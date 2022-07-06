@@ -5,7 +5,7 @@ const concat = require('gulp-concat');
 const browserSync = require('browser-sync').create();
 const uglify = require('gulp-uglify-es').default;
 const autoprefixer = require('gulp-autoprefixer');
-const imagemin = require('gulp-imagemin');
+// const imagemin = require('gulp-imagemin');
 const del = require('del');
 
 function browsersync() {
@@ -20,23 +20,23 @@ function cleanDist() {
   return del('dist')
 }
 
-function images() {
-  return src('app/img/**/*')
-      .pipe(imagemin(
-          [
-            imagemin.gifsicle({interlaced: true}),
-            imagemin.mozjpeg({quality: 75, progressive: true}),
-            imagemin.optipng({optimizationLevel: 5}),
-            imagemin.svgo({
-              plugins: [
-                {removeViewBox: true},
-                {cleanupIDs: false}
-              ]
-            })
-          ]
-      ))
-      .pipe(dest('dist/img'))
-}
+// function images() {
+//   return src('app/img/**/*')
+//       .pipe(imagemin(
+//           [
+//             imagemin.gifsicle({interlaced: true}),
+//             imagemin.mozjpeg({quality: 75, progressive: true}),
+//             imagemin.optipng({optimizationLevel: 5}),
+//             imagemin.svgo({
+//               plugins: [
+//                 {removeViewBox: true},
+//                 {cleanupIDs: false}
+//               ]
+//             })
+//           ]
+//       ))
+//       .pipe(dest('dist/img'))
+// }
 
 function libsJs() {
   return src([
@@ -71,6 +71,7 @@ function build() {
   return src([
       'app/css/**/*.css',
       'app/fonts/**/*',
+      'app/img/**/*',
       'app/js/**/*.js',
       'app/*.html',
   ], {base: 'app'})
@@ -86,9 +87,9 @@ function watching() {
 exports.styles = styles;
 exports.watching = watching;
 exports.browsersync = browsersync;
-exports.images = images;
+// exports.images = images;
 exports.cleanDist = cleanDist;
 
 
-exports.build = series(cleanDist, images, build);
+exports.build = series(cleanDist, build);
 exports.default = parallel(styles, browsersync, watching, libsJs, libsCss);

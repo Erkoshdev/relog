@@ -41,7 +41,7 @@ function images() {
 function libsJs() {
   return src([
     'node_modules/jquery/dist/jquery.js',
-    'node_modules/bootstrap/dist/js/bootstrap.js',
+    'node_modules/bootstrap/dist/js/bootstrap.bundle.js',
   ])
       .pipe(concat('libs.min.js'))
       .pipe(dest('app/js'))

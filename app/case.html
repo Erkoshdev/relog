@@ -6,6 +6,7 @@
   <title>Title</title>
   <link rel="shortcut icon" href="img/logo/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/bootstrap-select.min.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -113,7 +114,6 @@
             </div>
           </div>
         </div>
-        
         <div class="subscribe-demo">
           <div class="subscribe-demo-caption">
             <h3>Попробуйте программу Relog бесплатно!</h3>
@@ -134,6 +134,17 @@
             <div class="form-group">
               <input class="phone-mask" type="text" placeholder="Номер телефона">
             </div>
+
+
+            <select class="select-form" title="Кол-во транспортных средств или курьеров *">
+              <option>3-4</option>
+              <option>5-10</option>
+              <option>11-20</option>
+              <option>21-50</option>
+              <option>51-100</option>
+              <option>101+</option>
+            </select>
+
             <div class="subscribe-demo-submit">
               <button class="btn btn-primary">Попробовать</button>
               <div class="accept-form">
@@ -300,12 +311,18 @@
 
 <script src="js/libs.min.js"></script>
 <script src="js/jquery.mask.min.js"></script>
+<script src="js/bootstrap-select.min.js"></script>
 <script src="js/main.js"></script>
 <script>
   //phone-mask
   $(document).ready(function (){
     $('.phone-mask').mask('+7 000 000 0000');
   })
+
+  //select
+  $('.select-form').selectpicker({
+    style: '',
+  });
 </script>
 </body>
 </html>

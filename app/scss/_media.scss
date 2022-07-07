@@ -21,19 +21,8 @@
   .main-partners-box {
     padding: 30px;
   }
-  .originality-list {
-    width: 100%;
-  }
   .blog-primary-img {
     height: 260px;
-  }
-  .client-item h6 {
-    font-size: 30px;
-    line-height: 40px;
-  }
-  .client-item p {
-    font-size: 15px;
-    line-height: 20px;
   }
   .article-link {
     padding: 20px;
@@ -51,11 +40,6 @@
   }
   .blog-share-link span {
     font-size: 20px;
-  }
-  .vacancy-primary-caption p {
-    font-size: 22px;
-    line-height: 120%;
-    margin-bottom: 20px;
   }
   .vacancy-primary-caption p+.btn-primary {
     margin-top: 40px;
@@ -97,23 +81,18 @@
   .about-company-left {
     padding-right: 60px;
   }
-  .about-company-client p {
-    font-size: 28px;
-    line-height: 120%;
-  }
-  .about-company-client p a {
-    padding-right: 40px;
-  }
-  .about-company-client p a:after {
-    width: 48px;
-    height: 48px;
-  }
   .subscribe-demo {
     padding: 40px;
   }
   .subscribe-demo-caption h3 {
     font-size: 40px;
     line-height: 120%;
+  }
+  .main-service .swiper-button-prev {
+    left: -30px;
+  }
+  .main-service .swiper-button-next {
+    right: -30px;
   }
 }
 
@@ -192,10 +171,6 @@
   .section-title {
     margin-bottom: 45px;
   }
-  .title-lg {
-    font-size: 44px;
-    line-height: 120%;
-  }
   .main-partners-box {
     padding: 30px;
   }
@@ -223,9 +198,6 @@
   }
   .case-online-store:before {
     opacity: 1;
-  }
-  .originality-list {
-    width: 100%;
   }
   .collaboration-company-item {
     padding: 20px;
@@ -290,14 +262,6 @@
   .client-item {
     padding: 20px;
     min-height: 320px;
-  }
-  .client-item h6 {
-    font-size: 24px;
-    line-height: 120%;
-  }
-  .client-item p {
-    font-size: 15px;
-    line-height: 120%;
   }
   .client-item-logo img {
     max-width: 130px;
@@ -446,11 +410,6 @@
   .blog-detail-page {
     padding-bottom: 0;
   }
-  .vacancy-primary-caption p {
-    font-size: 22px;
-    line-height: 120%;
-    margin-bottom: 20px;
-  }
   .vacancy-primary-caption p+.btn-primary {
     margin-top: 40px;
   }
@@ -486,23 +445,6 @@
     width: 30px;
     height: 29px;
   }
-  .knowing-content p {
-    font-size: 22px;
-    line-height: 120%;
-    margin-bottom: 22px;
-  }
-  .ceo-img {
-    height: 240px;
-  }
-  .ceo-caption p {
-    font-size: 22px;
-    line-height: 120%;
-    margin-bottom: 22px;
-  }
-  .about-product-desc p {
-    font-size: 22px;
-    line-height: 120%;
-  }
   .about-product-item {
     width: calc(50% - 20px);
   }
@@ -514,10 +456,6 @@
     width: 38px;
     height: 38px;
   }
-  .about-page .title-lg {
-    font-size: 40px;
-    line-height: 120%;
-  }
   .worth-list {
     margin: 40px 0 0 0;
   }
@@ -528,16 +466,8 @@
   .worth-additional-text {
     padding-top: 40px;
   }
-  .worth-additional-text p {
-    font-size: 28px;
-    line-height: 120%;
-  }
   .team-members {
     padding-top: 40px;
-  }
-  .team-member-img {
-    width: 220px;
-    height: 220px;
   }
   .team-member-item+.team-member-item {
     margin-top: 60px;
@@ -572,10 +502,6 @@
     padding: 24px;
     min-height: 200px;
   }
-  .vacancy-item h6 {
-    font-size: 22px;
-    line-height: 120%;
-  }
   .vacancy-item p {
     font-size: 20px;
     line-height: 120%;
@@ -583,28 +509,14 @@
   .vacancy-subscribe {
     margin-top: 40px;
   }
-  .vacancy-subscribe .section-title p {
-    margin-top: 25px;
-    font-size: 20px;
-    line-height: 120%;
-  }
   .vacancy-subscribe-form {
     margin-top: 30px;
   }
-
+  .about-company-worth {
+    margin-top: 0;
+  }
   .about-company-left {
     padding-right: 40px;
-  }
-  .about-company-client p {
-    font-size: 28px;
-    line-height: 120%;
-  }
-  .about-company-client p a {
-    padding-right: 40px;
-  }
-  .about-company-client p a:after {
-    width: 48px;
-    height: 48px;
   }
   .partner-item {
     padding: 24px;
@@ -657,6 +569,25 @@
   .subscribe-demo-caption p {
     font-size: 20px;
     line-height: 120%;
+  }
+  .thank-page {
+    padding-bottom: 0;
+  }
+  .main-service .swiper-button-prev {
+    left: -20px;
+  }
+  .main-service .swiper-button-next {
+    right: -20px;
+  }
+  .tablet {
+    height: 235px;
+  }
+  .phone-left-img img, .phone-right-img img {
+    max-width: 170px;
+  }
+  .phone {
+    height: 345px;
+    width: 160px;
   }
 }
 
@@ -764,7 +695,7 @@
     margin-bottom: 40px;
   }
   .title-lg {
-    font-size: 38px;
+    font-size: 30px;
     line-height: 120%;
   }
   .btn-text {
@@ -810,7 +741,6 @@
     margin-top: 20px;
   }
   .originality-list {
-    width: 100%;
     margin: -16px -20px;
   }
   .originality-item {
@@ -944,14 +874,6 @@
     width: calc(50% - 24px);
     padding: 20px;
     min-height: 320px;
-  }
-  .client-item h6 {
-    font-size: 24px;
-    line-height: 120%;
-  }
-  .client-item p {
-    font-size: 15px;
-    line-height: 120%;
   }
   .client-item-logo img {
     max-width: 130px;
@@ -1321,11 +1243,6 @@
   .vacancy-primary-caption .section-title {
     margin-bottom: 20px;
   }
-  .vacancy-primary-caption p {
-    font-size: 20px;
-    line-height: 120%;
-    margin-bottom: 18px;
-  }
   .vacancy-primary-caption p+.btn-primary {
     margin-top: 30px;
   }
@@ -1389,23 +1306,6 @@
     margin-right: 30px;
     margin-bottom: 15px;
   }
-  .knowing-content p {
-    font-size: 22px;
-    line-height: 120%;
-    margin-bottom: 22px;
-  }
-  .ceo-img {
-    height: 240px;
-  }
-  .ceo-caption p {
-    font-size: 22px;
-    line-height: 120%;
-    margin-bottom: 22px;
-  }
-  .about-product-desc p {
-    font-size: 22px;
-    line-height: 120%;
-  }
   .about-product-item {
     width: calc(50% - 20px);
   }
@@ -1431,16 +1331,8 @@
   .worth-additional-text {
     padding-top: 40px;
   }
-  .worth-additional-text p {
-    font-size: 28px;
-    line-height: 120%;
-  }
   .team-members {
     padding-top: 40px;
-  }
-  .team-member-img {
-    width: 220px;
-    height: 220px;
   }
   .team-member-item+.team-member-item {
     margin-top: 60px;
@@ -1475,21 +1367,12 @@
     padding: 24px;
     min-height: 200px;
   }
-  .vacancy-item h6 {
-    font-size: 22px;
-    line-height: 120%;
-  }
   .vacancy-item p {
     font-size: 20px;
     line-height: 120%;
   }
   .vacancy-subscribe {
     margin-top: 40px;
-  }
-  .vacancy-subscribe .section-title p {
-    margin-top: 25px;
-    font-size: 20px;
-    line-height: 120%;
   }
   .vacancy-subscribe-form {
     margin-top: 30px;
@@ -1622,7 +1505,12 @@
       margin-top: 15px;
     }
   }
-
+  .thank-page {
+    padding-bottom: 0;
+  }
+  .thank-slider {
+    padding: 70px 0 150px 0;
+  }
 }
 
 //landscape phones
@@ -1764,7 +1652,7 @@
     margin-bottom: 30px;
   }
   .title-lg {
-    font-size: 30px;
+    font-size: 28px;
     line-height: 120%;
   }
   .btn-text {
@@ -1821,7 +1709,6 @@
     margin-top: 20px;
   }
   .originality-list {
-    width: 100%;
     margin: -16px -20px;
   }
   .originality-item {
@@ -1975,14 +1862,6 @@
     margin: 7.5px;
     padding: 20px;
     min-height: 320px;
-  }
-  .client-item h6 {
-    font-size: 24px;
-    line-height: 120%;
-  }
-  .client-item p {
-    font-size: 15px;
-    line-height: 120%;
   }
   .client-item-logo img {
     max-width: 130px;
@@ -2418,11 +2297,6 @@
   .vacancy-primary {
     padding-bottom: 30px;
   }
-  .vacancy-primary-caption p {
-    font-size: 20px;
-    line-height: 120%;
-    margin-bottom: 18px;
-  }
   .vacancy-primary-caption p+.btn-primary {
     margin-top: 25px;
   }
@@ -2504,23 +2378,10 @@
   .ceo {
     display: block;
   }
-  .ceo-img {
-    width: 240px;
-    height: 240px;
-  }
   .ceo-caption {
     width: 100%;
     padding-left: 0;
     margin-top: 40px;
-  }
-  .ceo-caption p {
-    font-size: 22px;
-    line-height: 120%;
-    margin-bottom: 22px;
-  }
-  .about-product-desc p {
-    font-size: 20px;
-    line-height: 120%;
   }
   .about-product-item {
     width: calc(100% - 20px);
@@ -2560,23 +2421,11 @@
   .worth-additional-text {
     padding-top: 30px;
   }
-  .worth-additional-text p {
-    font-size: 24px;
-    line-height: 120%;
-  }
-  .team-main p {
-    font-size: 22px;
-    line-height: 120%;
-  }
   .team-main {
     padding-bottom: 30px;
   }
   .team-members {
     padding-top: 30px;
-  }
-  .team-member-img {
-    width: 170px;
-    height: 170px;
   }
   .team-member-item+.team-member-item {
     margin-top: 60px;
@@ -2613,21 +2462,12 @@
     padding: 24px;
     min-height: 120px;
   }
-  .vacancy-item h6 {
-    font-size: 22px;
-    line-height: 120%;
-  }
   .vacancy-item p {
     font-size: 20px;
     line-height: 120%;
   }
   .vacancy-subscribe {
     margin-top: 40px;
-  }
-  .vacancy-subscribe .section-title p {
-    margin-top: 25px;
-    font-size: 20px;
-    line-height: 120%;
   }
   .vacancy-subscribe-form {
     margin-top: 30px;
@@ -2824,6 +2664,12 @@
   }
   .main-partners-item img.partners-img-xs {
     display: block;
+  }
+  .thank-page {
+    padding-bottom: 0;
+  }
+  .thank-slider {
+    padding: 60px 0 100px 0;
   }
 }
 
@@ -3130,13 +2976,13 @@
      padding: 24px;
   }
   .originality-list {
-    width: 100%;
     margin: 0;
   }
   .originality-item {
     width: 100%;
     margin: 0;
     display: flex;
+    text-align: left;
   }
   .originality-item + .originality-item {
     margin-top: 40px;
@@ -3205,6 +3051,7 @@
     padding: 8px;
     min-height: fit-content;
     border-radius: 100px;
+    align-items: center;
   }
   .collaboration-company-img {
     width: 64px;
@@ -4044,10 +3891,6 @@
   .ceo {
     display: block;
   }
-  .ceo-img {
-    width: 100%;
-    height: 300px;
-  }
   .ceo-caption {
     width: 100%;
     padding-left: 0;
@@ -4138,10 +3981,6 @@
   }
   .team-member-item {
     display: block;
-  }
-  .team-member-img {
-    width: 100%;
-    height: 320px;
   }
   .team-member-caption {
     margin-top: 24px;
@@ -4427,6 +4266,34 @@
   .video-modal .modal-dialog {
     width: calc(100% - 1em);
     padding-top: calc((100% - 1em) * 0.5625);
+  }
+  .thank-page {
+    padding-bottom: 0;
+  }
+  .thank-slider {
+    padding: 60px 0 100px 0;
+  }
+  .main-originality .section-title {
+    justify-content: flex-start;
+  }
+  .tablet-xs {
+    width: 100%;
+    max-height: 180px;
+  }
+  .tablet-xs img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+  }
+  .phone-xs {
+    width: 140px;
+    margin: 0 auto;
+    max-height: 320px;
+  }
+  .phone-xs img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
   }
 }
 

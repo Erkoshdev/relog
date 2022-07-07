@@ -818,7 +818,7 @@ footer {
 }
 
 .originality-list {
-  margin: -16px -64px;
+  margin: -16px 0;
   display: flex;
   flex-wrap: wrap;
 }
@@ -1052,9 +1052,9 @@ footer {
 }
 
 .tablet img {
-  width: auto;
+  width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .swiper-button-prev, .swiper-button-next  {
@@ -2069,6 +2069,10 @@ footer {
   padding-right: 0;
   margin-bottom: 32px;
   width: 100%;
+}
+
+.popular-news {
+  margin-top: 64px;
 }
 
 .popular-news .blog-row {
@@ -3625,6 +3629,38 @@ blockquote:before {
   display: block;
   margin: 0 auto;
 }
+
+.thank-slider {
+  background: url("../img/main/thank-bg.png") no-repeat center/cover, #FDC435;
+  padding: 140px 0 200px 0;
+}
+
+.thank-slider .title-lg {
+  max-width: 450px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.thank-slider p {
+  margin: 24px auto 0 auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #404040;
+  max-width: 350px;
+}
+
+.thank-slider .btn-primary {
+  margin: 52px auto 0 auto;
+}
+
+.thank-page {
+  padding-bottom: 0;
+}
+
+
+
 
 
 @import "media";

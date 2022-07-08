@@ -585,6 +585,13 @@
   .phone-left-img img, .phone-right-img img {
     max-width: 170px;
   }
+  .phone-screen-picture {
+    position: absolute;
+    width: calc(100% - 52px);
+    height: calc(100% - 88px);
+    top: 44px;
+    left: 26px;
+  }
   .phone {
     height: 345px;
     width: 160px;

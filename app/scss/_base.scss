@@ -509,18 +509,14 @@ ul {
 
 .half-form {
   display: flex;
-  margin-left: -12px;
-  margin-right: -12px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 .half-form .form-group {
-  width: calc(50% - 24px);
-  margin-left: 12px;
-  margin-right: 12px;
-}
-
-.half-form .form-group {
-  width: calc(50% - 24px);
+  width: calc(50% - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .form-group-wrapper {
@@ -547,8 +543,8 @@ ul {
   justify-content: center;
   background: #FFFFFF;
   border-radius: 16px;
-  padding: 20px 24px;
-  min-height: 64px;
+  padding: 15px 24px;
+  min-height: 56px;
   border: 2px dashed #62029E;
   width: 100%;
   font-weight: 500;
@@ -668,8 +664,8 @@ ul {
   color: #0C0C0C;
 }
 
-.bootstrap-select .bs-placeholder {
-  color: #8F95A7;
+.bootstrap-select .bs-placeholder .filter-option-inner-inner {
+  color: #8F95A7!important;
 }
 
 

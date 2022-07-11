@@ -303,10 +303,11 @@ footer {
   line-height: 16px;
   color: #FFFFFF;
   display: block;
+  transition: .2s ease;
 }
 
 .footer-contact-link:hover {
-  color: #FFFFFF;
+  color: #ffc600;
 }
 
 .footer-nav {
@@ -323,10 +324,11 @@ footer {
   line-height: 14px;
   color: #FFFFFF;
   display: block;
+  transition: .2s ease;
 }
 
 .footer-nav-link:hover {
-  color: #FFFFFF;
+  color: #ffc600;
 }
 
 .footer-nav-link + .footer-nav-link {
@@ -1907,6 +1909,7 @@ footer {
   padding: 18px;
   display: flex;
   position: relative;
+  cursor: pointer;
 }
 
 .article-link-img {

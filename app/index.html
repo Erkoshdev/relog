@@ -1495,6 +1495,8 @@
     },
     autoplay: {
       delay: 3000,
+      pauseOnMouseEnter: true,
+      disableOnInteraction: false
     },
     slidesPerView: 1,
     pagination: {
@@ -1516,6 +1518,9 @@
       }
     }
   });
+  $('.main-service .swiper-pagination-bullet').click(function (){
+    serviceSlider.autoplay.stop();
+  })
 
 
   //features slider

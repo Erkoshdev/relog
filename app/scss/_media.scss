@@ -1,14 +1,5 @@
 //desktops
 @media (min-width: 1200px) and  (max-width: 1399px) {
-  .header-logo {
-    margin-right: 38px;
-  }
-  .header-nav-wrapper {
-    margin-right: 38px;
-  }
-  .header-nav li+li {
-    margin-left: 20px;
-  }
   .header-lang {
     margin-right: 35px;
   }
@@ -19,74 +10,22 @@
     width: 68%;
   }
   .main-partners-box {
-    padding: 30px;
+    padding: 24px 30px;
   }
-  .blog-primary-img {
-    height: 260px;
-  }
-  .article-link {
-    padding: 20px;
-  }
-  .blog-detail-title h1 {
-    font-size: 36px;
-    line-height: 120%;
-  }
-  .blog-detail-title p {
-    font-size: 20px;
-    line-height: 120%
-  }
-  .blog-detail-page {
-    padding-bottom: 0;
-  }
-  .blog-share-link span {
-    font-size: 20px;
-  }
-  .vacancy-primary-caption p+.btn-primary {
+  .vacancy-primary-caption p + .btn-primary {
     margin-top: 40px;
   }
-  .vacancy-secondary-info ul li+li {
+  .vacancy-secondary-info ul li + li {
     margin-top: 20px;
-  }
-  .vacancy-secondary-info ul li {
-    font-size: 20px;
-    line-height: 120%;
   }
   .vacancy-secondary-info {
     margin-bottom: 45px;
-  }
-
-  .hr-contact-icon {
-    width: 70px;
-    height: 70px;
-  }
-  .hr-contact-caption {
-    margin-left: 20px;
-  }
-  .hr-contact-caption p {
-    font-size: 22px;
-    line-height: 120%;
-    margin-top: 10px;
-  }
-  .vacancy-item {
-    min-height: 200px;
-  }
-  .vacancy-item h6 {
-    font-size: 20px;
-    line-height: 120%;
-  }
-  .vacancy-item p {
-    font-size: 20px;
-    line-height: 120%;
   }
   .about-company-left {
     padding-right: 60px;
   }
   .subscribe-demo {
     padding: 40px;
-  }
-  .subscribe-demo-caption h3 {
-    font-size: 40px;
-    line-height: 120%;
   }
   .main-service .swiper-button-prev {
     left: -30px;
@@ -166,13 +105,13 @@
     width: 75%;
   }
   .section {
-    margin-top: 90px;
+    margin-top: 70px;
   }
   .section-title {
-    margin-bottom: 45px;
+    margin-bottom: 30px;
   }
   .main-partners-box {
-    padding: 30px;
+    padding: 24px 30px;
   }
   .case-delivery .case-caption {
     padding-right: 30px;
@@ -183,16 +122,6 @@
   .case-online-store .case-caption {
     padding-right: 30px;
   }
-  .case-md .case-name {
-    font-size: 20px;
-    line-height: 120%;
-  }
-  .case-md {
-    min-height: 270px;
-  }
-  .case-lg {
-    min-height: 564px;
-  }
   .case-optimization:before {
     opacity: 1;
   }
@@ -201,13 +130,6 @@
   }
   .collaboration-company-item {
     padding: 20px;
-  }
-  .collaboration-company-img {
-    width: 70px;
-    height: 70px;
-  }
-  .collaboration-company-caption {
-    margin-top: 20px;
   }
   .main-service .section-title {
     display: block;
@@ -219,7 +141,7 @@
     justify-content: flex-start;
   }
   .service-box {
-    padding: 40px;
+    padding: 30px;
   }
   .service-box-caption {
     width: 55%;
@@ -227,17 +149,8 @@
   .service-box-img {
     width: 45%;
   }
-  .service-features {
-    margin: 15px -15px -10px -15px;
-  }
-  .service-features-item {
-    margin: 10px 15px;
-  }
   .service-box-caption .btn {
     margin-top: 30px;
-  }
-  .upgrade-number-item h6 {
-    font-size: 36px;
   }
   .upgrade-number-item hr {
     margin: 15px 0;
@@ -249,15 +162,8 @@
     width: 55%;
     padding: 30px 30px 30px 50px;
   }
-  .integration-caption .title-lg {
-    font-size: 40px;
-    line-height: 120%;
-  }
   .integration-caption .btn {
     margin-top: 30px;
-  }
-  .page-wrapper {
-    padding-bottom: 100px;
   }
   .client-item {
     padding: 20px;
@@ -265,9 +171,6 @@
   }
   .client-item-logo img {
     max-width: 130px;
-  }
-  .blog-md .blog-md-img {
-    height: 400px;
   }
   .blog-sm .blog-sm-img {
     height: 220px;
@@ -277,10 +180,6 @@
   }
   .blog-sm-bg .blog-sm-type {
     margin-bottom: 10px;
-  }
-  .blog-sm-bg .blog-sm-name {
-    font-size: 20px;
-    line-height: 120%;
   }
   .blog-md-bg .blog-md-caption {
     padding: 20px;
@@ -311,16 +210,8 @@
   .latest-news .article-preview:last-child {
     display: none;
   }
-  .latest-news .blog-lg .blog-lg-name {
-    font-size: 36px;
-    line-height: 120%;
-  }
   .news-subscribe-sm {
     padding: 25px 20px;
-  }
-  .news-subscribe-sm h6 {
-    font-size: 20px;
-    line-height: 120%;
   }
   .article-preview {
     padding-right: 80px;
@@ -333,15 +224,10 @@
     padding: 24px;
     min-height: 360px;
   }
-  .subscribe-md-title {
-    font-size: 36px;
-    line-height: 120%;
-  }
   .subscribe-md-desc {
     font-size: 20px;
     line-height: 120%;
   }
-
   .blog-detail-title h1 {
     font-size: 30px;
     line-height: 120%;
@@ -367,31 +253,8 @@
   .blog-content-body {
     padding: 40px 50px 16px 50px;
   }
-  .blog-content-body h6 {
-    font-size: 36px;
-    line-height: 120%;
-    margin-bottom: 20px;
-  }
-  .blog-content-body p {
-    font-size: 18px;
-    line-height: 120%;
-    margin-bottom: 16px;
-  }
-  .blog-content-body blockquote p {
-    font-size: 20px;
-    line-height: 120%;
-  }
-  .blog-content-body .blockquote-author p {
-    font-size: 14px;
-    line-height: 120%;
-  }
   .blog-number-list {
     margin-top: 34px;
-  }
-  .blog-content-body strong {
-    margin-bottom: 16px;
-    font-size: 18px;
-    line-height: 120%;
   }
   .blog-content-bottom {
     padding: 40px 50px 100px 50px;
@@ -415,10 +278,6 @@
   }
   .vacancy-secondary-info ul li+li {
     margin-top: 20px;
-  }
-  .vacancy-secondary-info ul li {
-    font-size: 20px;
-    line-height: 120%;
   }
   .vacancy-secondary {
     padding-top: 45px;
@@ -448,20 +307,15 @@
   .about-product-item {
     width: calc(50% - 20px);
   }
-  .about-product-img {
-    width: 70px;
-    height: 70px;
-  }
-  .about-product-img img {
-    width: 38px;
-    height: 38px;
-  }
   .worth-list {
     margin: 40px 0 0 0;
   }
   .worth-item {
     width: 100%;
     margin: 0;
+  }
+  .worth-item + .worth-item {
+    margin-top: 30px;
   }
   .worth-additional-text {
     padding-top: 40px;
@@ -475,21 +329,8 @@
   .hr-contact-item+.hr-contact-item {
     margin-left: 60px;
   }
-  .hr-contact-icon {
-    width: 60px;
-    height: 60px;
-  }
-  .hr-contact-icon img {
-    width: 30px;
-    height: 30px;
-  }
   .hr-contact-caption {
     margin-left: 15px;
-  }
-  .hr-contact-caption p {
-    margin-top: 7px;
-    font-size: 20px;
-    line-height: 120%;
   }
   .hr-contact-list {
     padding-bottom: 40px;
@@ -498,13 +339,7 @@
     margin-top: 0;
   }
   .vacancy-item {
-    width: calc(50% - 24px);
-    padding: 24px;
-    min-height: 200px;
-  }
-  .vacancy-item p {
-    font-size: 20px;
-    line-height: 120%;
+    width: calc(50% - 20px);
   }
   .vacancy-subscribe {
     margin-top: 40px;
@@ -574,10 +409,14 @@
     padding-bottom: 0;
   }
   .main-service .swiper-button-prev {
-    left: -20px;
+    left: -25px;
+    width: 45px;
+    height: 45px;
   }
   .main-service .swiper-button-next {
-    right: -20px;
+    right: -25px;
+    width: 45px;
+    height: 45px;
   }
   .tablet {
     height: 235px;
@@ -696,18 +535,7 @@
     width: 60%;
   }
   .section {
-    margin-top: 70px;
-  }
-  .section-title {
-    margin-bottom: 40px;
-  }
-  .title-lg {
-    font-size: 30px;
-    line-height: 120%;
-  }
-  .btn-text {
-    font-size: 20px;
-    line-height: 120%;
+    margin-top: 60px;
   }
   .main-partners-box {
     padding: 20px 30px;
@@ -718,19 +546,20 @@
   .case-delivery .case-caption {
     padding: 25px;
   }
-  .case-lg {
-    min-height: 584px;
+  .case-delivery .case-name {
+    max-width: initial;
   }
-  .case-lg .case-name {
-    font-size: 28px;
-    line-height: 120%;
+  .case-optimization .case-name {
+    max-width: initial;
+    br {
+      display: none;
+    }
   }
-  .case-md {
-    min-height: 280px;
+  .case-online-store .case-name {
+    max-width: initial;
   }
-  .case-md .case-name {
-    font-size: 20px;
-    line-height: 120%;
+  .case-more-link {
+    font-size: 15px;
   }
   .case-optimization .case-caption {
     padding: 25px;
@@ -758,16 +587,8 @@
     margin-top: 44px;
   }
   .collaboration-company-item {
-    width: calc(33.3% - 24px);
+    width: calc(33.3% - 20px);
     padding: 20px;
-  }
-  .collaboration-company-img {
-    width: 70px;
-    height: 70px;
-  }
-  .collaboration-company-img svg {
-    width: 40px;
-    height: 40px;
   }
   .collaboration-company-caption {
     margin-top: 20px;
@@ -788,6 +609,8 @@
   .service-box {
     padding: 35px;
     flex-direction: column;
+    min-height: 450px;
+    height: auto;
   }
   .service-box-img {
     display: none;
@@ -796,25 +619,20 @@
     width: 100%;
     padding-right: 0;
   }
-  .service-box {
-    height: auto;
-  }
   .main-service .swiper-button-prev {
     left: -25px;
-    bottom: 266px;
+    bottom: 200px;
+    width: 45px;
+    height: 45px;
   }
   .main-service .swiper-button-next {
     right: -25px;
-    bottom: 266px;
-  }
-  .service-features-item {
-    margin: 10px 15px;
+    bottom: 200px;
+    width: 45px;
+    height: 45px;
   }
   .service-box-caption .btn {
     margin-top: 30px;
-  }
-  .upgrade-number-item h6 {
-    font-size: 32px;
   }
   .upgrade-number-item hr {
     margin: 15px 0;
@@ -825,19 +643,8 @@
   .features-box {
     padding: 20px;
   }
-  .features-box-img {
-    width: 70px;
-    height: 70px;
-  }
-  .features-box-img img {
-    width: 40px;
-    height: 40px;
-  }
   .features-box-caption {
     margin-top: 15px;
-  }
-  .features-box-caption h6 {
-    font-size: 20px;
   }
   .features-box-caption p {
     margin-top: 10px;
@@ -851,6 +658,7 @@
     width: 100%;
     padding: 0;
     max-width: 250px;
+    height: fit-content;
     margin: -15px auto 0 auto;
   }
   .integration-caption {
@@ -869,10 +677,6 @@
   }
   .blog-primary-caption {
     margin-top: 15px;
-  }
-  .blog-primary-caption h6 {
-    font-size: 20px;
-    line-height: 120%;
   }
   .page-wrapper {
     padding-bottom: 80px;
@@ -1157,12 +961,6 @@
   .blog-page .page-nav {
     margin-top: 30px;
   }
-
-  .blog-detail-slider {
-    min-height: 400px;
-    height: fit-content;
-    max-height: initial;
-  }
   .blog-detail-img {
     height: auto;
   }
@@ -1262,10 +1060,6 @@
   .vacancy-secondary-info ul li+li {
     margin-top: 16px;
   }
-  .vacancy-secondary-info ul li {
-    font-size: 18px;
-    line-height: 120%;
-  }
   .vacancy-secondary-info {
     margin-bottom: 30px;
   }
@@ -1324,16 +1118,15 @@
     width: 38px;
     height: 38px;
   }
-  .about-page .title-lg {
-    font-size: 40px;
-    line-height: 120%;
-  }
   .worth-list {
     margin: 40px 0 0 0;
   }
   .worth-item {
     width: 100%;
     margin: 0;
+  }
+  .worth-item + .worth-item {
+    margin-top: 30px;
   }
   .worth-additional-text {
     padding-top: 40px;
@@ -1358,11 +1151,6 @@
   .hr-contact-caption {
     margin-left: 15px;
   }
-  .hr-contact-caption p {
-    margin-top: 7px;
-    font-size: 20px;
-    line-height: 120%;
-  }
   .hr-contact-list {
     padding-bottom: 40px;
   }
@@ -1374,18 +1162,12 @@
     padding: 24px;
     min-height: 200px;
   }
-  .vacancy-item p {
-    font-size: 20px;
-    line-height: 120%;
-  }
   .vacancy-subscribe {
     margin-top: 40px;
   }
   .vacancy-subscribe-form {
     margin-top: 30px;
   }
-
-
   .about-company-slider {
     padding: 60px 0 100px 0;
     height: fit-content;
@@ -1658,20 +1440,12 @@
   .section-title {
     margin-bottom: 30px;
   }
-  .title-lg {
-    font-size: 28px;
-    line-height: 120%;
-  }
   .btn-text {
     font-size: 18px;
     line-height: 120%;
   }
   .main-partners-box {
     padding: 20px 30px;
-  }
-  .main-partners-item {
-    padding: 20px;
-    width: 33.3%;
   }
   .cases-row {
     display: block;
@@ -1684,18 +1458,13 @@
     margin-top: 24px;
   }
   .case-lg {
-    min-height: 450px;
-  }
-  .case-lg .case-name {
-    font-size: 28px;
-    line-height: 120%;
+    min-height: 300px;
   }
   .case-md {
-    min-height: 450px;
+    min-height: 300px;
   }
-  .case-md .case-name {
-    font-size: 28px;
-    line-height: 120%;
+  .case-delivery .case-name {
+    max-width: initial;
   }
   .case-delivery .case-caption {
     padding: 30px;
@@ -1703,8 +1472,14 @@
   .case-optimization .case-caption {
     padding: 30px;
   }
+  .case-optimization .case-name {
+    max-width: initial;
+  }
   .case-online-store .case-caption {
     padding: 25px;
+  }
+  .case-online-store .case-name {
+    max-width: initial;
   }
   .case-optimization:before {
     opacity: 1;
@@ -1729,14 +1504,6 @@
     width: calc(50% - 24px);
     padding: 20px;
     min-height: 180px;
-  }
-  .collaboration-company-img {
-    width: 60px;
-    height: 60px;
-  }
-  .collaboration-company-img svg {
-    width: 35px;
-    height: 35px;
   }
   .collaboration-company-caption {
     margin-top: 15px;
@@ -1775,17 +1542,19 @@
   }
   .service-box {
     height: auto;
+    min-height: 300px;
   }
   .main-service .swiper-button-prev {
-    left: -30px;
-    bottom: 266px;
+    left: -20px;
+    bottom: 200px;
+    width: 45px;
+    height: 45px;
   }
   .main-service .swiper-button-next {
-    right: -30px;
-    bottom: 266px;
-  }
-  .service-features-item {
-    margin: 10px 15px;
+    right: -20px;
+    bottom: 200px;
+    width: 45px;
+    height: 45px;
   }
   .service-box-caption .btn {
     margin-top: 30px;
@@ -1802,14 +1571,6 @@
   .features-box {
     padding: 20px;
   }
-  .features-box-img {
-    width: 70px;
-    height: 70px;
-  }
-  .features-box-img img {
-    width: 40px;
-    height: 40px;
-  }
   .features-box-caption {
     margin-top: 15px;
   }
@@ -1825,7 +1586,8 @@
     background: url("../img/main/integration-bg-xs.png") no-repeat center top/contain, linear-gradient(270deg, #F9F7FA -9.11%, rgba(249, 247, 250, 0.6) 79.42%);
   }
   .integration-img {
-    width: 100%;
+    height: 100%;
+    width: fit-content;
     padding: 0;
     max-width: 250px;
     margin: -15px auto 0 auto;
@@ -1841,7 +1603,6 @@
   .integration-caption .btn {
     margin-top: 30px;
   }
-
   .blog-primary {
     width: calc(50% - 24px);
   }
@@ -2310,10 +2071,6 @@
   .vacancy-secondary {
     padding-top: 30px;
   }
-  .vacancy-secondary-info ul li {
-    font-size: 18px;
-    line-height: 120%;
-  }
   .vacancy-secondary-info ul li+li {
     margin-top: 18px;
   }
@@ -2455,11 +2212,6 @@
   }
   .hr-contact-caption {
     margin-left: 15px;
-  }
-  .hr-contact-caption p {
-    margin-top: 7px;
-    font-size: 20px;
-    line-height: 120%;
   }
   .vacancy {
     margin-top: 0;

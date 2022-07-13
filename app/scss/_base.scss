@@ -95,15 +95,15 @@ ul {
 //*********************texts************************
 .title-md {
   font-weight: 500;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 50px;
   color: #0C0C0C;
 }
 
 .title-lg {
   font-weight: 500;
-  font-size: 36px;
-  line-height: 50px;
+  font-size: 26px;
+  line-height: 35px;
   color: #0C0C0C;
 }
 
@@ -122,8 +122,8 @@ ul {
   align-items: center;
   justify-content: center;
   width: fit-content;
-  min-height: 54px;
-  padding: 17px 27px;
+  min-height: 46px;
+  padding: 14px 24px;
   border-radius: 16px;
   box-sizing: border-box;
   font-weight: 400;
@@ -299,7 +299,7 @@ ul {
   border: none;
   display: flex;
   flex-wrap: wrap;
-  margin: -10px;
+  margin: -8px -10px;
 }
 
 .nav-item {
@@ -309,13 +309,13 @@ ul {
 .nav-tabs .nav-link {
   border: 2px solid #E9EEF4;
   border-radius: 1000px;
-  padding: 14px 30px;
+  padding: 14px 18px;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 14px;
+  font-size: 12px;
+  line-height: 12px;
   color: #404040;
   box-sizing: border-box;
-  margin: 10px;
+  margin: 8px 10px;
   white-space: nowrap;
   display: flex;
   align-items: center;
@@ -356,8 +356,8 @@ ul {
 }
 
 .pagination-link {
-  width: 46px;
-  height: 46px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   border: 2px solid #E9EEF4;
   display: flex;
@@ -365,8 +365,8 @@ ul {
   justify-content: center;
   flex-shrink: 0;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 16px;
   color: #404040;
 }
 
@@ -442,9 +442,9 @@ ul {
   align-items: center;
   background: #FAFAFA;
   border-radius: 16px;
-  padding: 14px 24px;
+  padding: 14px 20px;
   min-height: 48px;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   border: 2px solid #E9EEF4;
 }
 
@@ -458,8 +458,8 @@ ul {
   flex: 1;
   border: none;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 21px;
+  font-size: 14px;
+  line-height: 14px;
   opacity: 0.9;
 }
 
@@ -469,8 +469,8 @@ ul {
 
 .form-group input::placeholder {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 21px;
+  font-size: 14px;
+  line-height: 14px;
   color: #8F95A7;
   max-width: 100%;
   overflow: hidden;
@@ -529,11 +529,11 @@ ul {
 
 .form-group-notice {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 14px;
+  font-size: 12px;
+  line-height: 12px;
   color: #8F95A7;
   display: block;
-  margin-top: 16px;
+  margin-top: 12px;
 }
 
 .upload-file {
@@ -626,7 +626,7 @@ ul {
 .accept-form p {
   margin-left: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 21px;
   color: #404040;
 }

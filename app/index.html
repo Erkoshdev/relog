@@ -156,8 +156,9 @@
               <div class="case-caption">
                 <span class="case-type">Кейс Sulpak</span>
                 <h2 class="case-name">Как предугадать вызовы при доставке товаров клиентам</h2>
-                <button class="btn btn-primary">Подробнее</button>
+                <span class="case-more-link">Подробнее</span>
               </div>
+              <a href="" class="absolute-link"></a>
             </div>
           </div>
           <div class="case-wrapper">
@@ -165,15 +166,17 @@
               <div class="case-caption">
                 <span class="case-type">Кейс</span>
                 <h2 class="case-name">Оптимизация логистики с помощью Relog: вместо двенадцати грузовиков — <br>десять</h2>
-                <button class="btn btn-border-white">Подробнее</button>
+                <span class="case-more-link">Подробнее</span>
               </div>
+              <a href="" class="absolute-link"></a>
             </div>
             <div class="case case-md case-light case-online-store">
               <div class="case-caption">
                 <span class="case-type">Кейс E2e4</span>
                 <h2 class="case-name">Как Relog помог оптимизировать логистику сети интернет-магазинов</h2>
-                <button class="btn btn-border-white">Подробнее</button>
+                <span class="case-more-link">Подробнее</span>
               </div>
+              <a href="" class="absolute-link"></a>
             </div>
           </div>
         </div>
@@ -1493,11 +1496,11 @@
       nextEl: ".service-navigation-next",
       prevEl: ".service-navigation-prev",
     },
-    autoplay: {
-      delay: 3000,
-      pauseOnMouseEnter: true,
-      disableOnInteraction: false
-    },
+    // autoplay: {
+    //   delay: 3000,
+    //   pauseOnMouseEnter: true,
+    //   disableOnInteraction: false
+    // },
     slidesPerView: 1,
     pagination: {
       el: '.swiper-pagination-tab',
@@ -1526,7 +1529,7 @@
   //features slider
   let featureSlider = new Swiper(".main-features-slider", {
     speed: 700,
-    spaceBetween: 24,
+    spaceBetween: 20,
     navigation: {
       nextEl: ".features-navigation-next",
       prevEl: ".features-navigation-prev",
@@ -1538,15 +1541,15 @@
     breakpoints: {
       1200: {
         slidesPerView: 4,
-        spaceBetween: 24,
+        spaceBetween: 20,
       },
       768: {
         slidesPerView: 3,
-        spaceBetween: 24,
+        spaceBetween: 20,
       },
       576: {
         slidesPerView: 2,
-        spaceBetween: 24,
+        spaceBetween: 20,
       },
       320: {
         slidesPerView: 'auto',

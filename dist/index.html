@@ -49,7 +49,12 @@
             <a class="header-lang-item active" href="#">ru</a>
             <a class="header-lang-item" href="#">en</a>
           </div>
-          <a class="header-contact" href="tel:+74997030344">+7 (499) 703 0344</a>
+          <div class="header-contact">
+            <a class="header-contact-link" href="tel:+74997030344">+7 (499) 703 0344</a>
+            <a class="header-contact-link visible-xs" href="tel:+77273470443">+7 (727) 347 0443</a>
+            <a class="header-contact-link visible-xs" href="tel:+380442297074">+38 (044) 229 7074</a>
+            <a class="header-contact-link visible-xs" href="tel:+998712050795">+99 871 2050795</a>
+          </div>
           <a class="header-authorize" href="">
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M7.4165 6.3C7.67484 3.3 9.2165 2.075 12.5915 2.075H12.6998C16.4248 2.075 17.9165 3.56666 17.9165 7.29166V12.725C17.9165 16.45 16.4248 17.9417 12.6998 17.9417H12.5915C9.2415 17.9417 7.69984 16.7333 7.42484 13.7833" stroke="#62029E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -110,10 +115,6 @@
         <div class="section-title">
           <h1 class="title-lg">Нам доверяют</h1>
           <a href="client.html" class="btn-text">И еще 200+ клиентов</a>
-          <div class="swiper-button-wrapper main-partners-nav">
-            <div class="swiper-button-prev main-partners-prev"></div>
-            <div class="swiper-button-next main-partners-next"></div>
-          </div>
         </div>
         <div class="main-partners-box swiper">
           <div class="swiper-wrapper">
@@ -234,7 +235,7 @@
               <p>Мы разработали 10 разных алгоритмов, учитывающих более 40 параметров доставки</p>
             </div>
           </div>
-          <div class="originality-item">
+          <div class="originality-item originality-item-xs">
             <div class="originality-img">
               <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M42.1668 17.2501V28.7501C42.1668 33.5417 41.2085 36.8959 39.0618 39.0617L26.8335 26.8334L41.6494 12.0176C41.9944 13.5317 42.1668 15.2567 42.1668 17.2501Z" stroke="#461F72" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -249,7 +250,7 @@
               <p>Мы подключили все доступные карты, геокодеры</p>
             </div>
           </div>
-          <div class="originality-item">
+          <div class="originality-item originality-item-xs">
             <div class="originality-img">
               <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M3.8335 22.0416C3.8335 11.9791 11.9793 3.83325 22.0418 3.83325" stroke="#461F72" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -264,7 +265,7 @@
               <p>Мощные и всесторонние аналитические дэшборды Relog BI, раскрывающие все аспекты вашей доставки</p>
             </div>
           </div>
-          <div class="originality-item">
+          <div class="originality-item originality-item-xs">
             <div class="originality-img">
               <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M17.2501 24.9167C15.9851 25.5492 14.9309 26.4884 14.1451 27.6576C13.7042 28.3284 13.7042 29.1717 14.1451 29.8426C14.9309 31.0117 15.9851 31.9509 17.2501 32.5834" stroke="#B266FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -279,7 +280,7 @@
             </div>
           </div>
         </div>
-        <a href="" class="btn-text-border">Смотреть все</a>
+        <a href="" class="btn-text-border" id="toggleOriginality">Смотреть все</a>
       </div>
     </div>
     <div class="container">
@@ -536,10 +537,6 @@
       <div class="section main-service">
         <div class="section-title">
           <h1 class="title-lg">Сервисы Relog</h1>
-          <div class="swiper-button-wrapper-xs">
-            <div class="service-navigation-prev swiper-button-prev"></div>
-            <div class="service-navigation-next swiper-button-next"></div>
-          </div>
           <ul class="nav-tabs swiper-pagination-tab"></ul>
         </div>
         <div class="service-slider swiper">
@@ -548,12 +545,12 @@
               <div class="service-box-caption">
                 <span class="service-type">Веб и  мобильное приложение</span>
                 <h6 class="service-name">Для диспетчера</h6>
-                <p class="service-description">Рабочее место диспетчера позволяет управлять городской логистикой, какой бы сложной она не была. А так же видеть всю историю передвижения водителей, отслеживать в режиме реального времени изменения статусов заказов. Система автоматически запланирует маршруты и оптимально загрузит весь транспорт с учетом более чем 40 параметров доставки</p>
                 <div class="service-box-img-xs">
                   <div class="tablet-xs">
                     <img src="img/gif/dispetcher.gif" alt="">
                   </div>
                 </div>
+                <p class="service-description">Рабочее место диспетчера позволяет управлять городской логистикой, какой бы сложной она не была. А так же видеть всю историю передвижения водителей, отслеживать в режиме реального времени изменения статусов заказов. Система автоматически запланирует маршруты и оптимально загрузит весь транспорт с учетом более чем 40 параметров доставки</p>
                 <div class="service-features">
                   <div class="service-features-item">
                     <div class="service-features-img">
@@ -617,12 +614,37 @@
               <div class="service-box-caption">
                 <span class="service-type">мобильное приложение</span>
                 <h6 class="service-name">Для водителей и курьеров</h6>
-                <p class="service-description">Мобильное приложение для водителя представляет собой удобный и функциональный инструмент для работы с маршрутом и заказами. В приложении доступны маршрутные листы в режиме реального времени, изменение статусов заказов, комментиро-вание заказов, прикрепление фото, росписи. Также доступна аналитика и расчет KPI для водителей, таким образом курьер сразу видит сколько он заработал на данный момент</p>
                 <div class="service-box-img-xs">
-                  <div class="phone-xs">
-                    <img src="img/gif/voditel.gif" alt="">
+                  <div class="phone-center">
+                    <div class="phone-left-img">
+                      <img src="img/main/phone-white-xs.png" alt="">
+                      <img class="phone-screen-picture" src="img/main/voditel-left.png" alt="">
+                    </div>
+                    <div class="phone">
+                      <div class="phone-top">
+                        <div class="phone-top-left">
+                          <img src="img/icon/time-xs.svg" alt="">
+                        </div>
+                        <div class="phone-top-right">
+                          <img src="img/icon/connect-xs.svg" alt="">
+                          <img src="img/icon/wifi-xs.svg" alt="">
+                          <img src="img/icon/battery-xs.svg" alt="">
+                        </div>
+                      </div>
+                      <div class="phone-content">
+                        <img src="img/gif/voditel.gif" alt="">
+                      </div>
+                      <div class="phone-bottom">
+                        <span></span>
+                      </div>
+                    </div>
+                    <div class="phone-right-img">
+                      <img src="img/main/phone-white-xs.png" alt="">
+                      <img class="phone-screen-picture" src="img/main/voditel-right.png" alt="">
+                    </div>
                   </div>
                 </div>
+                <p class="service-description">Мобильное приложение для водителя представляет собой удобный и функциональный инструмент для работы с маршрутом и заказами. В приложении доступны маршрутные листы в режиме реального времени, изменение статусов заказов, комментиро-вание заказов, прикрепление фото, росписи. Также доступна аналитика и расчет KPI для водителей, таким образом курьер сразу видит сколько он заработал на данный момент</p>
                 <div class="service-features">
                   <div class="service-features-item">
                     <div class="service-features-img">
@@ -715,12 +737,33 @@
               <div class="service-box-caption">
                 <span class="service-type">мобильное приложение</span>
                 <h6 class="service-name">Для клиентов и партнеров</h6>
-                <p class="service-description">Клиент может дать оценку, оставить отзывы и отслеживать свой груз. Таким образом, решается проблема отсутствия обратной связи от клиента.</p>
                 <div class="service-box-img-xs">
-                  <div class="phone-xs">
-                    <img src="img/gif/partner.gif" alt="">
+                  <div class="phone-left">
+                    <div class="phone">
+                      <div class="phone-top">
+                        <div class="phone-top-left">
+                          <img src="img/icon/time-xs.svg" alt="">
+                        </div>
+                        <div class="phone-top-right">
+                          <img src="img/icon/connect-xs.svg" alt="">
+                          <img src="img/icon/wifi-xs.svg" alt="">
+                          <img src="img/icon/battery-xs.svg" alt="">
+                        </div>
+                      </div>
+                      <div class="phone-content">
+                        <img src="img/main/partner.jpg" alt="">
+                      </div>
+                      <div class="phone-bottom">
+                        <span></span>
+                      </div>
+                    </div>
+                    <div class="phone-right-img">
+                      <img src="img/main/phone-white-xs.png" alt="">
+                      <img class="phone-screen-picture" src="img/main/client-right.jpg" alt="">
+                    </div>
                   </div>
                 </div>
+                <p class="service-description">Клиент может дать оценку, оставить отзывы и отслеживать свой груз. Таким образом, решается проблема отсутствия обратной связи от клиента.</p>
                 <div class="service-features">
                   <div class="service-features-item">
                     <div class="service-features-img">
@@ -789,7 +832,7 @@
                       </div>
                     </div>
                     <div class="phone-content">
-                      <img src="img/gif/partner.gif" alt="">
+                      <img src="img/main/partner.jpg" alt="">
                     </div>
                     <div class="phone-bottom">
                       <span></span>
@@ -806,12 +849,12 @@
               <div class="service-box-caption">
                 <span class="service-type">Веб-сервис</span>
                 <h6 class="service-name">Модуль аналитики для руководителей</h6>
-                <p class="service-description">Web-сервис помогает директорам по логистике и топ-менеджменту компаний получить максимально детальную и глубокую аналитику, видеть картину тенденций и географических особенностей доставки, моделировать исход различных вариантов действий, отслеживать результаты принятия решений.</p>
                 <div class="service-box-img-xs">
                   <div class="tablet-xs">
                     <img src="img/gif/analitycs.gif" alt="">
                   </div>
                 </div>
+                <p class="service-description">Web-сервис помогает директорам по логистике и топ-менеджменту компаний получить максимально детальную и глубокую аналитику, видеть картину тенденций и географических особенностей доставки, моделировать исход различных вариантов действий, отслеживать результаты принятия решений.</p>
                 <div class="service-features">
                   <div class="service-features-item">
                     <div class="service-features-img">
@@ -884,12 +927,33 @@
               <div class="service-box-caption">
                 <span class="service-type">мобильное приложение</span>
                 <h6 class="service-name">Для руководителей</h6>
-                <p class="service-description">Мобильное приложение с помощью удобного дашборда позволяет руководителю компании видеть в разрезе выбранного временного промежутка: дня, недели, месяца статистику по основным логистическим показателям. Эти параметры можно просматривать как по всему автопарку, так и по каждому конкретному водителю.</p>
                 <div class="service-box-img-xs">
-                  <div class="phone-xs">
-                    <img src="img/gif/partner.gif" alt="">
+                  <div class="phone-right">
+                    <div class="phone-left-img">
+                      <img src="img/main/phone-white-xs.png" alt="">
+                      <img class="phone-screen-picture" src="img/main/rukovoditel-left.PNG" alt="">
+                    </div>
+                    <div class="phone">
+                      <div class="phone-top">
+                        <div class="phone-top-left">
+                          <img src="img/icon/time-xs.svg" alt="">
+                        </div>
+                        <div class="phone-top-right">
+                          <img src="img/icon/connect-xs.svg" alt="">
+                          <img src="img/icon/wifi-xs.svg" alt="">
+                          <img src="img/icon/battery-xs.svg" alt="">
+                        </div>
+                      </div>
+                      <div class="phone-content">
+                        <img src="img/gif/partner.gif" alt="">
+                      </div>
+                      <div class="phone-bottom">
+                        <span></span>
+                      </div>
+                    </div>
                   </div>
                 </div>
+                <p class="service-description">Мобильное приложение с помощью удобного дашборда позволяет руководителю компании видеть в разрезе выбранного временного промежутка: дня, недели, месяца статистику по основным логистическим показателям. Эти параметры можно просматривать как по всему автопарку, так и по каждому конкретному водителю.</p>
                 <div class="service-features">
                   <div class="service-features-item">
                     <div class="service-features-img">
@@ -985,12 +1049,12 @@
               <div class="service-box-caption">
                 <span class="service-type">Веб сервис</span>
                 <h6 class="service-name">Аналитика Relog Census</h6>
-                <p class="service-description">Это самая передовая аналитика для дистрибьюторов. В отличии от модуля Relog BI, который позволяет анализировать работу водителей, своевременность доставки, количество заказов и т.д. Relog Census помогает компаниям захватить как можно большую долю рынка. В частности Relog Census позволяет им:</p>
                 <div class="service-box-img-xs">
                   <div class="tablet-xs">
                     <img src="img/gif/census.gif" alt="">
                   </div>
                 </div>
+                <p class="service-description">Это самая передовая аналитика для дистрибьюторов. В отличии от модуля Relog BI, который позволяет анализировать работу водителей, своевременность доставки, количество заказов и т.д. Relog Census помогает компаниям захватить как можно большую долю рынка. В частности Relog Census позволяет им:</p>
                 <div class="service-features">
                   <div class="service-features-item">
                     <div class="service-features-img">
@@ -1333,7 +1397,7 @@
         </a>
       </div>
       <div class="row footer-body">
-        <div class="col-sm-6 col-md-5 col-lg-3 col-xl-3 footer-contact">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 footer-contact">
           <div class="footer-contact-item">
             <h6>Мы всегда на связи</h6>
             <a class="footer-contact-link" href="tel:+74997030344">+7 (499) 703 03 44</a>
@@ -1346,28 +1410,26 @@
             <a class="footer-contact-link" href="mailto:sales@relog.kz">sales@relog.kz</a>
           </div>
         </div>
-        <div class="col-sm-12 col-md-7 col-lg-5 col-xl-6 footer-nav">
+        <div class="col-sm-12 col-md-8 col-lg-9 col-xl-6 footer-nav">
           <div class="footer-nav-column">
             <a href="about-2.html" class="footer-nav-link">О компании</a>
-            <a href="client.html" class="footer-nav-link">Клиенты</a>
-            <a href="about-blog.html" class="footer-nav-link">Пресса о нас</a>
+            <a href="contact.html" class="footer-nav-link xs-visible">Контакты</a>
+            <a href="client.html" class="footer-nav-link xs-unvisible">Клиенты</a>
+            <a href="about-blog.html" class="footer-nav-link xs-unvisible">Пресса о нас</a>
             <a href="" class="footer-nav-link">API–документация</a>
-            <a href="partner.html" class="footer-nav-link xs-visible">Наши партнеры</a>
+            <a href="" class="footer-nav-link xs-visible">Challenge</a>
           </div>
           <div class="footer-nav-column">
-            <a href="blog.html" class="footer-nav-link">Блог</a>
-            <a href="" class="footer-nav-link">Challenge</a>
+            <a href="blog.html" class="footer-nav-link xs-unvisible">Блог</a>
+            <a href="" class="footer-nav-link xs-unvisible">Challenge</a>
             <a href="partner.html" class="footer-nav-link xs-unvisible">Наши партнеры</a>
-            <a href="contact.html" class="footer-nav-link xs-visible">Контакты</a>
-            <a href="about.html#vacancy" class="footer-nav-link xs-visible">Вакансии</a>
-            <p class="footer-nav-link xs-visible">Eng — Rus</p>
           </div>
           <div class="footer-nav-column">
             <a href="contact.html" class="footer-nav-link xs-unvisible">Контакты</a>
             <a href="about.html#vacancy" class="footer-nav-link xs-unvisible">Вакансии</a>
           </div>
         </div>
-        <div class="col-sm-6 col-md-12 col-lg-4 col-xl-3 footer-social">
+        <div class="col-sm-6 col-md-12 col-lg-12 col-xl-3 footer-social">
           <h6>Подписывайтесь на нас</h6>
           <ul class="footer-social-list">
             <li>
@@ -1490,17 +1552,17 @@
     'Сенсус аналитика',
   ]
   let serviceSlider = new Swiper('.service-slider', {
-    speed: 700,
+    speed: 800,
     spaceBetween: 50,
     navigation: {
       nextEl: ".service-navigation-next",
       prevEl: ".service-navigation-prev",
     },
-    // autoplay: {
-    //   delay: 3000,
-    //   pauseOnMouseEnter: true,
-    //   disableOnInteraction: false
-    // },
+    autoplay: {
+      delay: 3000,
+      pauseOnMouseEnter: true,
+      disableOnInteraction: false,
+    },
     slidesPerView: 1,
     pagination: {
       el: '.swiper-pagination-tab',
@@ -1521,9 +1583,20 @@
       }
     }
   });
+  let swiperActive = 0;
+  serviceSlider.on('touchEnd, autoplayResume', function (){
+    serviceSlider.autoplay.stop();
+  });
   $('.main-service .swiper-pagination-bullet').click(function (){
     serviceSlider.autoplay.stop();
-  })
+  });
+  $('.main-service .swiper-button-next').click(function (){
+    serviceSlider.autoplay.stop();
+  });
+  $('.main-service .swiper-button-prev').click(function (){
+    serviceSlider.autoplay.stop();
+  });
+
 
 
   //features slider
@@ -1552,8 +1625,8 @@
         spaceBetween: 20,
       },
       320: {
-        slidesPerView: 'auto',
-        spaceBetween: 10,
+        slidesPerView: 1,
+        centeredSlides: true,
       }
     }
   });
@@ -1566,6 +1639,10 @@
         speed: 700,
         spaceBetween: 40,
         slidesPerView: 3,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
         navigation: {
           nextEl: ".main-partners-next",
           prevEl: ".main-partners-prev",
@@ -1581,13 +1658,21 @@
       let blogSlider = new Swiper('.blog-primary-list', {
         speed: 700,
         spaceBetween: 10,
-        slidesPerView: 'auto',
+        slidesPerView: 1,
+        centeredSlides: true,
         navigation: {
           nextEl: ".main-blog-next",
           prevEl: ".main-blog-prev",
         },
       });
     }
+  });
+
+  //"Показать все" Уникальность Relog
+  $('#toggleOriginality').click(function (e){
+    e.preventDefault();
+    $(this).css('display', 'none');
+    $('.originality-item-xs').toggleClass('show');
   });
 
 </script>

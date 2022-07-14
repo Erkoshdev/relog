@@ -169,15 +169,26 @@ header {
 }
 
 .header-contact {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.header-contact-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
   letter-spacing: 0.01em;
   text-transform: uppercase;
   color: #FFFFFF;
-  margin-left: auto;
-  margin-right: 20px;
   transition: 0.2s ease;
+}
+
+.header-contact-link:hover {
+  color: #ffc600;
+}
+
+.header-contact .visible-xs {
+  display: none;
 }
 
 .header-contact:hover {
@@ -202,7 +213,7 @@ header {
 .header-authorize span {
   display: block;
   margin-left: 6px;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   line-height: 14px;
   color: #62029E;
@@ -304,6 +315,7 @@ footer {
   color: #FFFFFF;
   display: block;
   transition: .2s ease;
+  width: fit-content;
 }
 
 .footer-contact-link:hover {
@@ -2667,7 +2679,7 @@ blockquote:before {
 
 .share-title {
   display: none;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 24px;
   line-height: 31px;
   text-align: center;
@@ -2944,7 +2956,7 @@ blockquote:before {
 }
 
 .hr-contacts .section-title {
-  margin-bottom: 64px;
+  margin-bottom: 40px;
 }
 
 .hr-contact-list {
@@ -3622,7 +3634,7 @@ blockquote:before {
 
 .phone:before {
   content: '';
-  background: url("../img/icon/phone-before.svg");
+  background: url("../img/icon/phone-before.svg") no-repeat center/contain;
   width: 7px;
   height: 54px;
   position: absolute;
@@ -3632,7 +3644,7 @@ blockquote:before {
 
 .phone:after {
   content: '';
-  background: url("../img/icon/phone-after.svg");
+  background: url("../img/icon/phone-after.svg") no-repeat center/contain;
   width: 7px;
   height: 55px;
   position: absolute;
@@ -3760,7 +3772,13 @@ blockquote:before {
   font-weight: 500;
 }
 
+.case-page .btn-text-border {
+  display: none;
+}
 
+.blog-detail-page .main-blog {
+  display: none;
+}
 
 
 @import "media";

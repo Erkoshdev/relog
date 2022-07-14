@@ -49,7 +49,12 @@
             <a class="header-lang-item active" href="#">ru</a>
             <a class="header-lang-item" href="#">en</a>
           </div>
-          <a class="header-contact" href="tel:+74997030344">+7 (499) 703 0344</a>
+          <div class="header-contact">
+            <a class="header-contact-link" href="tel:+74997030344">+7 (499) 703 0344</a>
+            <a class="header-contact-link visible-xs" href="tel:+77273470443">+7 (727) 347 0443</a>
+            <a class="header-contact-link visible-xs" href="tel:+380442297074">+38 (044) 229 7074</a>
+            <a class="header-contact-link visible-xs" href="tel:+998712050795">+99 871 2050795</a>
+          </div>
           <a class="header-authorize" href="">
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M7.4165 6.3C7.67484 3.3 9.2165 2.075 12.5915 2.075H12.6998C16.4248 2.075 17.9165 3.56666 17.9165 7.29166V12.725C17.9165 16.45 16.4248 17.9417 12.6998 17.9417H12.5915C9.2415 17.9417 7.69984 16.7333 7.42484 13.7833" stroke="#62029E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -147,7 +152,7 @@
         </div>
       </div>
       <div class="subscribe-md">
-        <h6 class="subscribe-md-title">Подпишитесь на нашу рассылку!</h6>
+        <h6 class="subscribe-md-title">Подпишитесь на рассылку!</h6>
         <p class="subscribe-md-desc">Получайте новые статьи прямо на почту.</p>
         <div class="subscribe-md-form">
           <div class="form-group light">
@@ -157,45 +162,50 @@
         </div>
         <p class="subscribe-md-agreement">Подписываясь, я соглашаюсь на получение новостных/рекламных сообщений на условиях <a href="">Пользовательского соглашения</a></p>
       </div>
-      <div class="blog-wrapper">
+      <div class="section main-blog">
         <div class="section-title">
-          <div class="title-with-notice">
-            <h1 class="title-lg">Что еще почитать по теме:</h1>
+          <h1 class="title-lg">Что еще почитать по теме:</h1>
+          <a href="blog.html" class="btn-text">Смотреть блог</a>
+          <div class="swiper-button-wrapper main-blog-nav">
+            <div class="swiper-button-prev main-blog-prev"></div>
+            <div class="swiper-button-next main-blog-next"></div>
           </div>
         </div>
-        <div class="blog-row">
-          <div class="blog-item blog-sm">
-            <div class="blog-sm-img">
-              <img src="img/main/blog-sm-img.png" alt="">
+        <div class="blog-primary-list swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide blog-primary">
+              <div class="blog-primary-img">
+                <img src="" alt="">
+              </div>
+              <div class="blog-primary-caption">
+                <h6>Как с помощью модуля аналитики в TMS системе, Ваша логистика заиграет новыми красками?</h6>
+                <span>13 апреля 2021</span>
+              </div>
+              <a href="#" class="absolute-link"></a>
             </div>
-            <div class="blog-sm-caption">
-              <h6 class="blog-sm-name">Как статистика позволят сэкономить на городской доставке</h6>
-              <span class="blog-sm-date">13 апреля 2021</span>
+            <div class="swiper-slide blog-primary">
+              <div class="blog-primary-img">
+                <img src="" alt="">
+              </div>
+              <div class="blog-primary-caption">
+                <h6>Насколько зрелая логистика в России?</h6>
+                <span>13 апреля 2021</span>
+              </div>
+              <a href="#" class="absolute-link"></a>
             </div>
-            <a href="" class="absolute-link"></a>
-          </div>
-          <div class="blog-item blog-sm">
-            <div class="blog-sm-img">
-              <img src="img/main/blog-sm-img.png" alt="">
+            <div class="swiper-slide blog-primary">
+              <div class="blog-primary-img">
+                <img src="" alt="">
+              </div>
+              <div class="blog-primary-caption">
+                <h6>Кейс Sulpak: как предугадать вызовы при доставке товаров клиентам</h6>
+                <span>13 апреля 2021</span>
+              </div>
+              <a href="#" class="absolute-link"></a>
             </div>
-            <div class="blog-sm-caption">
-              <h6 class="blog-sm-name">Как статистика позволят сэкономить на городской доставке</h6>
-              <span class="blog-sm-date">13 апреля 2021</span>
-            </div>
-            <a href="" class="absolute-link"></a>
-          </div>
-          <div class="blog-item blog-sm">
-            <div class="blog-sm-img">
-              <img src="img/main/blog-sm-img.png" alt="">
-            </div>
-            <div class="blog-sm-caption">
-              <h6 class="blog-sm-name">Как статистика позволят сэкономить на городской доставке</h6>
-              <span class="blog-sm-date">13 апреля 2021</span>
-            </div>
-            <a href="" class="absolute-link"></a>
           </div>
         </div>
-        <button class="btn btn-text-border">Загрузить еще</button>
+        <a href="blog.html" class="btn-text-border">Смотреть блог</a>
       </div>
     </div>
     <div class="subscribe-xl">
@@ -263,7 +273,7 @@
         </a>
       </div>
       <div class="row footer-body">
-        <div class="col-sm-6 col-md-5 col-lg-3 col-xl-3 footer-contact">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 footer-contact">
           <div class="footer-contact-item">
             <h6>Мы всегда на связи</h6>
             <a class="footer-contact-link" href="tel:+74997030344">+7 (499) 703 03 44</a>
@@ -276,28 +286,26 @@
             <a class="footer-contact-link" href="mailto:sales@relog.kz">sales@relog.kz</a>
           </div>
         </div>
-        <div class="col-sm-12 col-md-7 col-lg-5 col-xl-6 footer-nav">
+        <div class="col-sm-12 col-md-8 col-lg-9 col-xl-6 footer-nav">
           <div class="footer-nav-column">
             <a href="about-2.html" class="footer-nav-link">О компании</a>
-            <a href="client.html" class="footer-nav-link">Клиенты</a>
-            <a href="about-blog.html" class="footer-nav-link">Пресса о нас</a>
+            <a href="contact.html" class="footer-nav-link xs-visible">Контакты</a>
+            <a href="client.html" class="footer-nav-link xs-unvisible">Клиенты</a>
+            <a href="about-blog.html" class="footer-nav-link xs-unvisible">Пресса о нас</a>
             <a href="" class="footer-nav-link">API–документация</a>
-            <a href="partner.html" class="footer-nav-link xs-visible">Наши партнеры</a>
+            <a href="" class="footer-nav-link xs-visible">Challenge</a>
           </div>
           <div class="footer-nav-column">
-            <a href="blog.html" class="footer-nav-link">Блог</a>
-            <a href="" class="footer-nav-link">Challenge</a>
+            <a href="blog.html" class="footer-nav-link xs-unvisible">Блог</a>
+            <a href="" class="footer-nav-link xs-unvisible">Challenge</a>
             <a href="partner.html" class="footer-nav-link xs-unvisible">Наши партнеры</a>
-            <a href="contact.html" class="footer-nav-link xs-visible">Контакты</a>
-            <a href="about.html#vacancy" class="footer-nav-link xs-visible">Вакансии</a>
-            <p class="footer-nav-link xs-visible">Eng — Rus</p>
           </div>
           <div class="footer-nav-column">
             <a href="contact.html" class="footer-nav-link xs-unvisible">Контакты</a>
             <a href="about.html#vacancy" class="footer-nav-link xs-unvisible">Вакансии</a>
           </div>
         </div>
-        <div class="col-sm-6 col-md-12 col-lg-4 col-xl-3 footer-social">
+        <div class="col-sm-6 col-md-12 col-lg-12 col-xl-3 footer-social">
           <h6>Подписывайтесь на нас</h6>
           <ul class="footer-social-list">
             <li>
@@ -403,6 +411,22 @@
       320: {
         slidesPerView: '1',
       }
+    }
+  });
+
+  //blog slider
+  $(document).ready(function (){
+    if($(window).width() < 576) {
+      let blogSlider = new Swiper('.blog-primary-list', {
+        speed: 700,
+        spaceBetween: 10,
+        slidesPerView: 1,
+        centeredSlides: true,
+        navigation: {
+          nextEl: ".main-blog-next",
+          prevEl: ".main-blog-prev",
+        },
+      });
     }
   });
 </script>

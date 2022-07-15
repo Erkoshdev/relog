@@ -76,6 +76,17 @@
     <div class="main-slider">
       <div class="container">
         <div class="main-slider-caption">
+          <a href="tel:+77273470443" class="slider-phone-xs">
+            <span class="slider-phone-img">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.5645 3.7055C5.6635 3.843 5.735 3.9695 5.7845 4.0905C5.834 4.206 5.8615 4.3215 5.8615 4.426C5.8615 4.558 5.823 4.69 5.746 4.8165C5.6745 4.943 5.57 5.075 5.438 5.207L5.02 5.6415C4.9595 5.702 4.932 5.7735 4.932 5.8615C4.932 5.9055 4.9375 5.944 4.9485 5.988C4.965 6.032 4.9815 6.065 4.9925 6.098C5.0915 6.2795 5.262 6.516 5.504 6.802C5.7515 7.088 6.0155 7.3795 6.3015 7.671C6.5985 7.9625 6.8845 8.232 7.176 8.4795C7.462 8.7215 7.6985 8.8865 7.8855 8.9855C7.913 8.9965 7.946 9.013 7.9845 9.0295C8.0285 9.046 8.0725 9.0515 8.122 9.0515C8.2155 9.0515 8.287 9.0185 8.3475 8.958L8.7655 8.5455C8.903 8.408 9.035 8.3035 9.1615 8.2375C9.288 8.1605 9.4145 8.122 9.552 8.122C9.6565 8.122 9.7665 8.144 9.8875 8.1935C10.0085 8.243 10.135 8.3145 10.2725 8.408L12.093 9.7005C12.236 9.7995 12.335 9.915 12.3955 10.0525C12.4505 10.19 12.4835 10.3275 12.4835 10.4815C12.4835 10.6795 12.4395 10.883 12.346 11.081C12.2525 11.279 12.1315 11.466 11.972 11.642C11.7025 11.939 11.4055 12.1535 11.07 12.291C10.74 12.4285 10.3825 12.5 9.9975 12.5C9.4365 12.5 8.837 12.368 8.2045 12.0985C7.572 11.829 6.9395 11.466 6.3125 11.0095C5.68 10.5475 5.0805 10.036 4.5085 9.4695C3.942 8.8975 3.4305 8.298 2.974 7.671C2.523 7.044 2.16 6.417 1.896 5.7955C1.632 5.1685 1.5 4.569 1.5 3.997C1.5 3.623 1.566 3.2655 1.698 2.9355C1.83 2.6 2.039 2.292 2.3305 2.017C2.6825 1.6705 3.0675 1.5 3.4745 1.5C3.6285 1.5 3.7825 1.533 3.92 1.599C4.063 1.665 4.1895 1.764 4.2885 1.907" stroke="#461F72" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10.5749 5.34999C10.5749 5.01999 10.3164 4.51399 9.9314 4.10149C9.5794 3.72199 9.1119 3.42499 8.6499 3.42499" stroke="#B266FF" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M9.7554 1.6595C9.4034 1.555 9.0349 1.5 8.6499 1.5" stroke="#B266FF" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12.4998 5.34993C12.4998 4.04643 11.8508 2.89143 10.8608 2.19843" stroke="#B266FF" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <span class="slider-phone-text">+7 (727) 347 0443</span>
+          </a>
           <h1 class="title-md">Космический сервис для оптимизации доставки</h1>
           <ul class="main-slider-advantage">
             <li>Забудьте про опоздания</li>
@@ -1598,11 +1609,13 @@
   });
 
 
-
   //features slider
   let featureSlider = new Swiper(".main-features-slider", {
-    speed: 700,
+    speed: 800,
     spaceBetween: 20,
+    autoplay: {
+      delay: 100000,
+    },
     navigation: {
       nextEl: ".features-navigation-next",
       prevEl: ".features-navigation-prev",
@@ -1623,10 +1636,14 @@
       576: {
         slidesPerView: 2,
         spaceBetween: 20,
+        autoplay: false,
       },
       320: {
         slidesPerView: 1,
         centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+        },
       }
     }
   });
@@ -1656,10 +1673,13 @@
   $(document).ready(function (){
     if($(window).width() < 576) {
       let blogSlider = new Swiper('.blog-primary-list', {
-        speed: 700,
+        speed: 800,
         spaceBetween: 10,
         slidesPerView: 1,
         centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+        },
         navigation: {
           nextEl: ".main-blog-next",
           prevEl: ".main-blog-prev",

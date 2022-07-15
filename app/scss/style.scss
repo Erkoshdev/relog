@@ -3780,5 +3780,31 @@ blockquote:before {
   display: none;
 }
 
+.slider-phone-xs {
+  align-items: center;
+  display: none;
+}
+
+.slider-phone-img {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  box-shadow: 0 8px 24px #F9F0FF;
+}
+
+.slider-phone-text {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #0C0C0C;
+  margin-left: 4px;
+}
+
 
 @import "media";

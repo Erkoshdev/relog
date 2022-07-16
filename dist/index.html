@@ -7,6 +7,7 @@
   <link rel="shortcut icon" href="img/logo/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/libs.min.css">
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/bootstrap-select.min.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -94,7 +95,7 @@
             <li>Превратите свою доставку в ракету</li>
           </ul>
           <div class="main-slider-tools">
-            <button class="btn btn-primary">Попробовать бесплатно</button>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#authModal">Попробовать бесплатно</button>
             <button class="btn-plain call-video-modal" id="callVideoModal" data-toggle="modal" data-target="#videoModal">
                 <span class="call-video-modal-icon">
                   <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1538,9 +1539,44 @@
     </div>
   </div>
 </div>
+<div class="modal fade authorize-modal" id="authModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Пробный период</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="" class="auth-form">
+          <div class="form-group danger">
+            <input type="text" placeholder="Название организации">
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Имя">
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Email">
+          </div>
+          <select class="select-form" title="Кол-во транспортных средств или курьеров">
+            <option>3-4</option>
+            <option>5-10</option>
+            <option>11-20</option>
+            <option>21-50</option>
+            <option>51-100</option>
+            <option>101+</option>
+          </select>
+          <button class="btn btn-primary">Отправить заявку</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
 
 <script src="js/libs.min.js"></script>
 <script src="js/swiper.bundle.min.js"></script>
+<script src="js/bootstrap-select.min.js"></script>
 <script src="js/main.js"></script>
 <script>
   //video modal
@@ -1594,7 +1630,6 @@
       }
     }
   });
-  let swiperActive = 0;
   serviceSlider.on('touchEnd, autoplayResume', function (){
     serviceSlider.autoplay.stop();
   });
@@ -1693,6 +1728,12 @@
     e.preventDefault();
     $(this).css('display', 'none');
     $('.originality-item-xs').toggleClass('show');
+  });
+
+
+  //select
+  $('.select-form').selectpicker({
+    style: '',
   });
 
 </script>

@@ -1608,7 +1608,6 @@
     autoplay: {
       delay: 3000,
       pauseOnMouseEnter: true,
-      disableOnInteraction: false,
     },
     slidesPerView: 1,
     pagination: {
@@ -1629,18 +1628,6 @@
         autoHeight: true,
       }
     }
-  });
-  serviceSlider.on('touchEnd, autoplayResume', function (){
-    serviceSlider.autoplay.stop();
-  });
-  $('.main-service .swiper-pagination-bullet').click(function (){
-    serviceSlider.autoplay.stop();
-  });
-  $('.main-service .swiper-button-next').click(function (){
-    serviceSlider.autoplay.stop();
-  });
-  $('.main-service .swiper-button-prev').click(function (){
-    serviceSlider.autoplay.stop();
   });
 
 

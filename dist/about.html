@@ -672,6 +672,11 @@
       $('.nav-link[href="#vacancy"]').trigger('click');
     }
   });
+
+  //скролл вверх стр при клике на табы
+  $('.about-tabs .nav-link').click(function (){
+    $(window).scrollTop(0)
+  });
 </script>
 </body>
 </html>

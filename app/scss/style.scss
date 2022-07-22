@@ -1523,8 +1523,9 @@ footer {
 
 .client-item-logo img {
   max-width: 120px;
-  height: fit-content;
+  height: auto;
   flex-shrink: 0;
+  object-fit: contain;
 }
 
 .first-section {

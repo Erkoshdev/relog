@@ -141,10 +141,10 @@
     padding: 30px;
   }
   .service-box-caption {
-    width: 55%;
+    width: 45%;
   }
   .service-box-img {
-    width: 45%;
+    width: 55%;
   }
   .service-box-caption .btn {
     margin-top: 30px;
@@ -413,7 +413,13 @@
     height: 45px;
   }
   .tablet {
-    height: 200px;
+    height: 230px;
+  }
+  .analitycs .tablet {
+    height: 270px;
+  }
+  .sensus .tablet {
+    height: 245px;
   }
   .phone-left-img img, .phone-right-img img {
     max-width: 170px;
@@ -4378,13 +4384,19 @@
   }
   .tablet-xs {
     width: 250px;
-    height: 120px;
+    height: 118px;
     background: #efefef;
     border: 3px solid #DCDCDC;
     box-shadow: 0 4px 48px -2px rgba(0, 0, 0, 0.02);
-    border-radius: 16px;
+    border-radius: 4px;
     overflow: hidden;
     margin: 0 auto;
+  }
+  .analitycs .tablet-xs {
+    height: 126px;
+  }
+  .sensus .tablet-xs {
+    height: 140px;
   }
   .tablet-xs img {
     width: 100%;

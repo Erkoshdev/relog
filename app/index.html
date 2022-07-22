@@ -857,7 +857,7 @@
                 </div>
               </div>
             </div>
-            <div class="swiper-slide service-box">
+            <div class="swiper-slide service-box analitycs">
               <div class="service-box-caption">
                 <span class="service-type">Веб-сервис</span>
                 <h6 class="service-name">Модуль аналитики для руководителей</h6>
@@ -1057,7 +1057,7 @@
                 </div>
               </div>
             </div>
-            <div class="swiper-slide service-box">
+            <div class="swiper-slide service-box sensus">
               <div class="service-box-caption">
                 <span class="service-type">Веб сервис</span>
                 <h6 class="service-name">Аналитика Relog Census</h6>
@@ -1590,45 +1590,60 @@
 
 
   //service slider
-  let serviceSliderPagination = [
-    'Для диспетчера',
-    'Для водителей и курьеров',
-    'Для клиентов и партнеров',
-    'Модуль аналитики для руководителей',
-    'Для руководителей',
-    'Сенсус аналитика',
-  ]
-  let serviceSlider = new Swiper('.service-slider', {
-    speed: 800,
-    spaceBetween: 50,
-    navigation: {
-      nextEl: ".service-navigation-next",
-      prevEl: ".service-navigation-prev",
-    },
-    autoplay: {
-      delay: 3000,
-      pauseOnMouseEnter: true,
-    },
-    slidesPerView: 1,
-    pagination: {
-      el: '.swiper-pagination-tab',
-      clickable: true,
-      renderBullet: function (index, className) {
-        return '<span class="' + className + '">' + (serviceSliderPagination[index]) + '</span>';
-      },
-    },
-    breakpoints: {
-      992: {
-        autoHeight: false,
-      },
-      576: {
-        autoHeight: false,
-      },
-      320: {
-        autoHeight: true,
-      }
-    }
+  var $div=$('.main-service');
+  var inited=false;
+
+  $(window).scroll(function(){
+    if(inited) return;
+    var $t=$(this),
+            s_top=$t.scrollTop();
+    if(s_top+$t.height()-450<$div.offset().top)
+      return;
+    initServiceSlider();
+    inited=true
   });
+
+  function initServiceSlider() {
+    let serviceSliderPagination = [
+      'Для диспетчера',
+      'Для водителей и курьеров',
+      'Для клиентов и партнеров',
+      'Модуль аналитики для руководителей',
+      'Для руководителей',
+      'Сенсус аналитика',
+    ]
+    let serviceSlider = new Swiper('.service-slider', {
+      speed: 800,
+      spaceBetween: 50,
+      navigation: {
+        nextEl: ".service-navigation-next",
+        prevEl: ".service-navigation-prev",
+      },
+      autoplay: {
+        delay: 3000,
+        pauseOnMouseEnter: true,
+      },
+      slidesPerView: 1,
+      pagination: {
+        el: '.swiper-pagination-tab',
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (serviceSliderPagination[index]) + '</span>';
+        },
+      },
+      breakpoints: {
+        992: {
+          autoHeight: false,
+        },
+        576: {
+          autoHeight: false,
+        },
+        320: {
+          autoHeight: true,
+        }
+      }
+    });
+  }
 
 
   //features slider

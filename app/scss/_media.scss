@@ -204,9 +204,6 @@
   .latest-news .article-preview {
     margin-bottom: 25px;
   }
-  .latest-news .article-preview:last-child {
-    display: none;
-  }
   .news-subscribe-sm {
     padding: 25px 20px;
   }
@@ -1871,6 +1868,12 @@
   .search-result-type p {
     font-size: 13px;
     line-height: 120%;
+  }
+  .article-preview-list-left {
+    width: 100%;
+  }
+  .article-preview-list-right {
+    width: 100%;
   }
   .article-preview {
     margin-bottom: 20px;
@@ -3547,6 +3550,9 @@
   .search-form input::placeholder {
     font-size: 16px;
     line-height: 21px;
+  }
+  .article-preview-list-left, .article-preview-list-right {
+    width: 100%;
   }
   .article-preview {
     width: 100%;

@@ -2030,8 +2030,16 @@ footer {
   margin-bottom: 20px;
 }
 
-.article-preview {
+.article-preview-list-left {
   width: 50%;
+}
+
+.article-preview-list-right {
+  width: 50%;
+}
+
+.article-preview {
+  width: 100%;
   padding-right: 120px;
   margin-bottom: 32px;
   position: relative;

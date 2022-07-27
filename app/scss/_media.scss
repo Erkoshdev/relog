@@ -6,9 +6,6 @@
   .header-authorize {
     padding: 10px 15px;
   }
-  .rocket-wrapper {
-    width: 68%;
-  }
   .main-partners-box {
     padding: 24px 30px;
   }
@@ -4466,5 +4463,19 @@
     height: calc(100vh - 10em);
     padding-top: 0;
     padding-left: calc((100vh - 10em) * 1.7778);
+  }
+}
+
+@media (min-width: 1600px) {
+  .main-slider-row {
+    display: flex;
+    position: relative;
+    height: 100%;
+  }
+  .main-slider .container {
+    height: 100%;
+  }
+  .main-slider {
+    max-height: 650px;
   }
 }
